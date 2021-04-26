@@ -1,0 +1,6 @@
+cargo-features = ["edition2021"]
+
+[package]
+name = "libgpg-error-src"
+version = "142.0.0+1.42"
+edition = "2021"
