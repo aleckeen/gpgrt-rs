@@ -1,0 +1,5 @@
+[workspace]
+members = [
+  "libgpg-error-src",
+  "libgpg-error-sys",
+]
