@@ -82,99 +82,6 @@ where
 }
 pub const GPG_ERROR_H: u32 = 1;
 pub const GPGRT_H: u32 = 1;
-pub const _STDIO_H: u32 = 1;
-pub const _FEATURES_H: u32 = 1;
-pub const _DEFAULT_SOURCE: u32 = 1;
-pub const __GLIBC_USE_ISOC2X: u32 = 0;
-pub const __USE_ISOC11: u32 = 1;
-pub const __USE_ISOC99: u32 = 1;
-pub const __USE_ISOC95: u32 = 1;
-pub const __USE_POSIX_IMPLICITLY: u32 = 1;
-pub const _POSIX_SOURCE: u32 = 1;
-pub const _POSIX_C_SOURCE: u32 = 200809;
-pub const __USE_POSIX: u32 = 1;
-pub const __USE_POSIX2: u32 = 1;
-pub const __USE_POSIX199309: u32 = 1;
-pub const __USE_POSIX199506: u32 = 1;
-pub const __USE_XOPEN2K: u32 = 1;
-pub const __USE_XOPEN2K8: u32 = 1;
-pub const _ATFILE_SOURCE: u32 = 1;
-pub const __USE_MISC: u32 = 1;
-pub const __USE_ATFILE: u32 = 1;
-pub const __USE_FORTIFY_LEVEL: u32 = 0;
-pub const __GLIBC_USE_DEPRECATED_GETS: u32 = 0;
-pub const __GLIBC_USE_DEPRECATED_SCANF: u32 = 0;
-pub const _STDC_PREDEF_H: u32 = 1;
-pub const __STDC_IEC_559__: u32 = 1;
-pub const __STDC_IEC_559_COMPLEX__: u32 = 1;
-pub const __STDC_ISO_10646__: u32 = 201706;
-pub const __GNU_LIBRARY__: u32 = 6;
-pub const __GLIBC__: u32 = 2;
-pub const __GLIBC_MINOR__: u32 = 33;
-pub const _SYS_CDEFS_H: u32 = 1;
-pub const __glibc_c99_flexarr_available: u32 = 1;
-pub const __WORDSIZE: u32 = 64;
-pub const __WORDSIZE_TIME64_COMPAT32: u32 = 1;
-pub const __SYSCALL_WORDSIZE: u32 = 64;
-pub const __LDOUBLE_REDIRECTS_TO_FLOAT128_ABI: u32 = 0;
-pub const __HAVE_GENERIC_SELECTION: u32 = 1;
-pub const __GLIBC_USE_LIB_EXT2: u32 = 0;
-pub const __GLIBC_USE_IEC_60559_BFP_EXT: u32 = 0;
-pub const __GLIBC_USE_IEC_60559_BFP_EXT_C2X: u32 = 0;
-pub const __GLIBC_USE_IEC_60559_FUNCS_EXT: u32 = 0;
-pub const __GLIBC_USE_IEC_60559_FUNCS_EXT_C2X: u32 = 0;
-pub const __GLIBC_USE_IEC_60559_TYPES_EXT: u32 = 0;
-pub const __GNUC_VA_LIST: u32 = 1;
-pub const _BITS_TYPES_H: u32 = 1;
-pub const __TIMESIZE: u32 = 64;
-pub const _BITS_TYPESIZES_H: u32 = 1;
-pub const __OFF_T_MATCHES_OFF64_T: u32 = 1;
-pub const __INO_T_MATCHES_INO64_T: u32 = 1;
-pub const __RLIM_T_MATCHES_RLIM64_T: u32 = 1;
-pub const __STATFS_MATCHES_STATFS64: u32 = 1;
-pub const __KERNEL_OLD_TIMEVAL_MATCHES_TIMEVAL64: u32 = 1;
-pub const __FD_SETSIZE: u32 = 1024;
-pub const _BITS_TIME64_H: u32 = 1;
-pub const _____fpos_t_defined: u32 = 1;
-pub const ____mbstate_t_defined: u32 = 1;
-pub const _____fpos64_t_defined: u32 = 1;
-pub const ____FILE_defined: u32 = 1;
-pub const __FILE_defined: u32 = 1;
-pub const __struct_FILE_defined: u32 = 1;
-pub const _IO_EOF_SEEN: u32 = 16;
-pub const _IO_ERR_SEEN: u32 = 32;
-pub const _IO_USER_LOCK: u32 = 32768;
-pub const _IOFBF: u32 = 0;
-pub const _IOLBF: u32 = 1;
-pub const _IONBF: u32 = 2;
-pub const BUFSIZ: u32 = 8192;
-pub const EOF: i32 = -1;
-pub const SEEK_SET: u32 = 0;
-pub const SEEK_CUR: u32 = 1;
-pub const SEEK_END: u32 = 2;
-pub const P_tmpdir: &'static [u8; 5usize] = b"/tmp\0";
-pub const _BITS_STDIO_LIM_H: u32 = 1;
-pub const L_tmpnam: u32 = 20;
-pub const TMP_MAX: u32 = 238328;
-pub const FILENAME_MAX: u32 = 4096;
-pub const L_ctermid: u32 = 9;
-pub const FOPEN_MAX: u32 = 16;
-pub const __HAVE_FLOAT128: u32 = 0;
-pub const __HAVE_DISTINCT_FLOAT128: u32 = 0;
-pub const __HAVE_FLOAT64X: u32 = 1;
-pub const __HAVE_FLOAT64X_LONG_DOUBLE: u32 = 1;
-pub const __HAVE_FLOAT16: u32 = 0;
-pub const __HAVE_FLOAT32: u32 = 1;
-pub const __HAVE_FLOAT64: u32 = 1;
-pub const __HAVE_FLOAT32X: u32 = 1;
-pub const __HAVE_FLOAT128X: u32 = 0;
-pub const __HAVE_DISTINCT_FLOAT16: u32 = 0;
-pub const __HAVE_DISTINCT_FLOAT32: u32 = 0;
-pub const __HAVE_DISTINCT_FLOAT64: u32 = 0;
-pub const __HAVE_DISTINCT_FLOAT32X: u32 = 0;
-pub const __HAVE_DISTINCT_FLOAT64X: u32 = 0;
-pub const __HAVE_DISTINCT_FLOAT128X: u32 = 0;
-pub const __HAVE_FLOATN_NOT_TYPEDEF: u32 = 0;
 pub const GPG_ERROR_VERSION: &'static [u8; 13usize] = b"1.42-unknown\0";
 pub const GPGRT_VERSION: &'static [u8; 13usize] = b"1.42-unknown\0";
 pub const GPG_ERROR_VERSION_NUMBER: u32 = 76288;
@@ -183,47 +90,6 @@ pub const GPG_ERR_SYSTEM_ERROR: u32 = 32768;
 pub const GPG_ERR_SOURCE_SHIFT: u32 = 24;
 pub const GPGRT_HAVE_MACRO_FUNCTION: u32 = 1;
 pub const GPG_ERR_INITIALIZED: u32 = 1;
-pub const _SYS_TYPES_H: u32 = 1;
-pub const __clock_t_defined: u32 = 1;
-pub const __clockid_t_defined: u32 = 1;
-pub const __time_t_defined: u32 = 1;
-pub const __timer_t_defined: u32 = 1;
-pub const _BITS_STDINT_INTN_H: u32 = 1;
-pub const __BIT_TYPES_DEFINED__: u32 = 1;
-pub const _ENDIAN_H: u32 = 1;
-pub const _BITS_ENDIAN_H: u32 = 1;
-pub const __LITTLE_ENDIAN: u32 = 1234;
-pub const __BIG_ENDIAN: u32 = 4321;
-pub const __PDP_ENDIAN: u32 = 3412;
-pub const _BITS_ENDIANNESS_H: u32 = 1;
-pub const __BYTE_ORDER: u32 = 1234;
-pub const __FLOAT_WORD_ORDER: u32 = 1234;
-pub const LITTLE_ENDIAN: u32 = 1234;
-pub const BIG_ENDIAN: u32 = 4321;
-pub const PDP_ENDIAN: u32 = 3412;
-pub const BYTE_ORDER: u32 = 1234;
-pub const _BITS_BYTESWAP_H: u32 = 1;
-pub const _BITS_UINTN_IDENTITY_H: u32 = 1;
-pub const _SYS_SELECT_H: u32 = 1;
-pub const __sigset_t_defined: u32 = 1;
-pub const __timeval_defined: u32 = 1;
-pub const _STRUCT_TIMESPEC: u32 = 1;
-pub const FD_SETSIZE: u32 = 1024;
-pub const _BITS_PTHREADTYPES_COMMON_H: u32 = 1;
-pub const _THREAD_SHARED_TYPES_H: u32 = 1;
-pub const _BITS_PTHREADTYPES_ARCH_H: u32 = 1;
-pub const __SIZEOF_PTHREAD_MUTEX_T: u32 = 40;
-pub const __SIZEOF_PTHREAD_ATTR_T: u32 = 56;
-pub const __SIZEOF_PTHREAD_RWLOCK_T: u32 = 56;
-pub const __SIZEOF_PTHREAD_BARRIER_T: u32 = 32;
-pub const __SIZEOF_PTHREAD_MUTEXATTR_T: u32 = 4;
-pub const __SIZEOF_PTHREAD_COND_T: u32 = 48;
-pub const __SIZEOF_PTHREAD_CONDATTR_T: u32 = 4;
-pub const __SIZEOF_PTHREAD_RWLOCKATTR_T: u32 = 8;
-pub const __SIZEOF_PTHREAD_BARRIERATTR_T: u32 = 4;
-pub const _THREAD_MUTEX_INTERNAL_H: u32 = 1;
-pub const __PTHREAD_MUTEX_HAVE_PREV: u32 = 1;
-pub const __have_pthread_attr_t: u32 = 1;
 pub const GPGRT_LOG_WITH_PREFIX: u32 = 1;
 pub const GPGRT_LOG_WITH_TIME: u32 = 2;
 pub const GPGRT_LOG_WITH_PID: u32 = 4;
@@ -234,307 +100,10 @@ pub const GPGRT_SPAWN_RUN_ASFW: u32 = 64;
 pub const GPGRT_SPAWN_DETACHED: u32 = 128;
 pub const GPGRT_CONFDIR_USER: u32 = 1;
 pub const GPGRT_CONFDIR_SYS: u32 = 2;
-pub type wchar_t = ::std::os::raw::c_int;
-#[repr(C)]
-#[repr(align(16))]
-#[derive(Debug, Copy, Clone)]
-pub struct max_align_t {
-    pub __clang_max_align_nonce1: ::std::os::raw::c_longlong,
-    pub __bindgen_padding_0: u64,
-    pub __clang_max_align_nonce2: u128,
-}
-#[test]
-fn bindgen_test_layout_max_align_t() {
-    assert_eq!(
-        ::core::mem::size_of::<max_align_t>(),
-        32usize,
-        concat!("Size of: ", stringify!(max_align_t))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<max_align_t>(),
-        16usize,
-        concat!("Alignment of ", stringify!(max_align_t))
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<max_align_t>())).__clang_max_align_nonce1 as *const _ as usize
-        },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(max_align_t),
-            "::",
-            stringify!(__clang_max_align_nonce1)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<max_align_t>())).__clang_max_align_nonce2 as *const _ as usize
-        },
-        16usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(max_align_t),
-            "::",
-            stringify!(__clang_max_align_nonce2)
-        )
-    );
-}
 pub type va_list = __builtin_va_list;
-pub type __gnuc_va_list = __builtin_va_list;
-pub type __u_char = ::std::os::raw::c_uchar;
-pub type __u_short = ::std::os::raw::c_ushort;
-pub type __u_int = ::std::os::raw::c_uint;
-pub type __u_long = ::std::os::raw::c_ulong;
-pub type __int8_t = ::std::os::raw::c_schar;
-pub type __uint8_t = ::std::os::raw::c_uchar;
-pub type __int16_t = ::std::os::raw::c_short;
-pub type __uint16_t = ::std::os::raw::c_ushort;
-pub type __int32_t = ::std::os::raw::c_int;
-pub type __uint32_t = ::std::os::raw::c_uint;
-pub type __int64_t = ::std::os::raw::c_long;
-pub type __uint64_t = ::std::os::raw::c_ulong;
-pub type __int_least8_t = __int8_t;
-pub type __uint_least8_t = __uint8_t;
-pub type __int_least16_t = __int16_t;
-pub type __uint_least16_t = __uint16_t;
-pub type __int_least32_t = __int32_t;
-pub type __uint_least32_t = __uint32_t;
-pub type __int_least64_t = __int64_t;
-pub type __uint_least64_t = __uint64_t;
-pub type __quad_t = ::std::os::raw::c_long;
-pub type __u_quad_t = ::std::os::raw::c_ulong;
-pub type __intmax_t = ::std::os::raw::c_long;
-pub type __uintmax_t = ::std::os::raw::c_ulong;
-pub type __dev_t = ::std::os::raw::c_ulong;
-pub type __uid_t = ::std::os::raw::c_uint;
-pub type __gid_t = ::std::os::raw::c_uint;
-pub type __ino_t = ::std::os::raw::c_ulong;
-pub type __ino64_t = ::std::os::raw::c_ulong;
-pub type __mode_t = ::std::os::raw::c_uint;
-pub type __nlink_t = ::std::os::raw::c_ulong;
 pub type __off_t = ::std::os::raw::c_long;
 pub type __off64_t = ::std::os::raw::c_long;
-pub type __pid_t = ::std::os::raw::c_int;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct __fsid_t {
-    pub __val: [::std::os::raw::c_int; 2usize],
-}
-#[test]
-fn bindgen_test_layout___fsid_t() {
-    assert_eq!(
-        ::core::mem::size_of::<__fsid_t>(),
-        8usize,
-        concat!("Size of: ", stringify!(__fsid_t))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<__fsid_t>(),
-        4usize,
-        concat!("Alignment of ", stringify!(__fsid_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__fsid_t>())).__val as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__fsid_t),
-            "::",
-            stringify!(__val)
-        )
-    );
-}
-pub type __clock_t = ::std::os::raw::c_long;
-pub type __rlim_t = ::std::os::raw::c_ulong;
-pub type __rlim64_t = ::std::os::raw::c_ulong;
-pub type __id_t = ::std::os::raw::c_uint;
-pub type __time_t = ::std::os::raw::c_long;
-pub type __useconds_t = ::std::os::raw::c_uint;
-pub type __suseconds_t = ::std::os::raw::c_long;
-pub type __suseconds64_t = ::std::os::raw::c_long;
-pub type __daddr_t = ::std::os::raw::c_int;
-pub type __key_t = ::std::os::raw::c_int;
-pub type __clockid_t = ::std::os::raw::c_int;
-pub type __timer_t = *mut ::core::ffi::c_void;
-pub type __blksize_t = ::std::os::raw::c_long;
-pub type __blkcnt_t = ::std::os::raw::c_long;
-pub type __blkcnt64_t = ::std::os::raw::c_long;
-pub type __fsblkcnt_t = ::std::os::raw::c_ulong;
-pub type __fsblkcnt64_t = ::std::os::raw::c_ulong;
-pub type __fsfilcnt_t = ::std::os::raw::c_ulong;
-pub type __fsfilcnt64_t = ::std::os::raw::c_ulong;
-pub type __fsword_t = ::std::os::raw::c_long;
 pub type __ssize_t = ::std::os::raw::c_long;
-pub type __syscall_slong_t = ::std::os::raw::c_long;
-pub type __syscall_ulong_t = ::std::os::raw::c_ulong;
-pub type __loff_t = __off64_t;
-pub type __caddr_t = *mut ::std::os::raw::c_char;
-pub type __intptr_t = ::std::os::raw::c_long;
-pub type __socklen_t = ::std::os::raw::c_uint;
-pub type __sig_atomic_t = ::std::os::raw::c_int;
-#[repr(C)]
-#[derive(Copy, Clone)]
-pub struct __mbstate_t {
-    pub __count: ::std::os::raw::c_int,
-    pub __value: __mbstate_t__bindgen_ty_1,
-}
-#[repr(C)]
-#[derive(Copy, Clone)]
-pub union __mbstate_t__bindgen_ty_1 {
-    pub __wch: ::std::os::raw::c_uint,
-    pub __wchb: [::std::os::raw::c_char; 4usize],
-}
-#[test]
-fn bindgen_test_layout___mbstate_t__bindgen_ty_1() {
-    assert_eq!(
-        ::core::mem::size_of::<__mbstate_t__bindgen_ty_1>(),
-        4usize,
-        concat!("Size of: ", stringify!(__mbstate_t__bindgen_ty_1))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<__mbstate_t__bindgen_ty_1>(),
-        4usize,
-        concat!("Alignment of ", stringify!(__mbstate_t__bindgen_ty_1))
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__mbstate_t__bindgen_ty_1>())).__wch as *const _ as usize
-        },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__mbstate_t__bindgen_ty_1),
-            "::",
-            stringify!(__wch)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__mbstate_t__bindgen_ty_1>())).__wchb as *const _ as usize
-        },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__mbstate_t__bindgen_ty_1),
-            "::",
-            stringify!(__wchb)
-        )
-    );
-}
-#[test]
-fn bindgen_test_layout___mbstate_t() {
-    assert_eq!(
-        ::core::mem::size_of::<__mbstate_t>(),
-        8usize,
-        concat!("Size of: ", stringify!(__mbstate_t))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<__mbstate_t>(),
-        4usize,
-        concat!("Alignment of ", stringify!(__mbstate_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__mbstate_t>())).__count as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__mbstate_t),
-            "::",
-            stringify!(__count)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__mbstate_t>())).__value as *const _ as usize },
-        4usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__mbstate_t),
-            "::",
-            stringify!(__value)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Copy, Clone)]
-pub struct _G_fpos_t {
-    pub __pos: __off_t,
-    pub __state: __mbstate_t,
-}
-#[test]
-fn bindgen_test_layout__G_fpos_t() {
-    assert_eq!(
-        ::core::mem::size_of::<_G_fpos_t>(),
-        16usize,
-        concat!("Size of: ", stringify!(_G_fpos_t))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<_G_fpos_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(_G_fpos_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<_G_fpos_t>())).__pos as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_G_fpos_t),
-            "::",
-            stringify!(__pos)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<_G_fpos_t>())).__state as *const _ as usize },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_G_fpos_t),
-            "::",
-            stringify!(__state)
-        )
-    );
-}
-pub type __fpos_t = _G_fpos_t;
-#[repr(C)]
-#[derive(Copy, Clone)]
-pub struct _G_fpos64_t {
-    pub __pos: __off64_t,
-    pub __state: __mbstate_t,
-}
-#[test]
-fn bindgen_test_layout__G_fpos64_t() {
-    assert_eq!(
-        ::core::mem::size_of::<_G_fpos64_t>(),
-        16usize,
-        concat!("Size of: ", stringify!(_G_fpos64_t))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<_G_fpos64_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(_G_fpos64_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<_G_fpos64_t>())).__pos as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_G_fpos64_t),
-            "::",
-            stringify!(__pos)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<_G_fpos64_t>())).__state as *const _ as usize },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(_G_fpos64_t),
-            "::",
-            stringify!(__state)
-        )
-    );
-}
-pub type __fpos64_t = _G_fpos64_t;
-pub type __FILE = _IO_FILE;
 pub type FILE = _IO_FILE;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -888,1059 +457,1876 @@ fn bindgen_test_layout__IO_FILE() {
         )
     );
 }
-pub type off_t = __off_t;
-pub type fpos_t = __fpos_t;
-extern "C" {
-    pub static mut stdin: *mut FILE;
-}
-extern "C" {
-    pub static mut stdout: *mut FILE;
-}
-extern "C" {
-    pub static mut stderr: *mut FILE;
-}
-extern "C" {
-    pub fn remove(__filename: *const ::std::os::raw::c_char) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn rename(
-        __old: *const ::std::os::raw::c_char,
-        __new: *const ::std::os::raw::c_char,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn renameat(
-        __oldfd: ::std::os::raw::c_int,
-        __old: *const ::std::os::raw::c_char,
-        __newfd: ::std::os::raw::c_int,
-        __new: *const ::std::os::raw::c_char,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn tmpfile() -> *mut FILE;
-}
-extern "C" {
-    pub fn tmpnam(__s: *mut ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
-}
-extern "C" {
-    pub fn tmpnam_r(__s: *mut ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
-}
-extern "C" {
-    pub fn tempnam(
-        __dir: *const ::std::os::raw::c_char,
-        __pfx: *const ::std::os::raw::c_char,
-    ) -> *mut ::std::os::raw::c_char;
-}
-extern "C" {
-    pub fn fclose(__stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fflush(__stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fflush_unlocked(__stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fopen(
-        __filename: *const ::std::os::raw::c_char,
-        __modes: *const ::std::os::raw::c_char,
-    ) -> *mut FILE;
-}
-extern "C" {
-    pub fn freopen(
-        __filename: *const ::std::os::raw::c_char,
-        __modes: *const ::std::os::raw::c_char,
-        __stream: *mut FILE,
-    ) -> *mut FILE;
-}
-extern "C" {
-    pub fn fdopen(__fd: ::std::os::raw::c_int, __modes: *const ::std::os::raw::c_char)
-        -> *mut FILE;
-}
-extern "C" {
-    pub fn fmemopen(
-        __s: *mut ::core::ffi::c_void,
-        __len: usize,
-        __modes: *const ::std::os::raw::c_char,
-    ) -> *mut FILE;
-}
-extern "C" {
-    pub fn open_memstream(
-        __bufloc: *mut *mut ::std::os::raw::c_char,
-        __sizeloc: *mut usize,
-    ) -> *mut FILE;
-}
-extern "C" {
-    pub fn setbuf(__stream: *mut FILE, __buf: *mut ::std::os::raw::c_char);
-}
-extern "C" {
-    pub fn setvbuf(
-        __stream: *mut FILE,
-        __buf: *mut ::std::os::raw::c_char,
-        __modes: ::std::os::raw::c_int,
-        __n: usize,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn setbuffer(__stream: *mut FILE, __buf: *mut ::std::os::raw::c_char, __size: usize);
-}
-extern "C" {
-    pub fn setlinebuf(__stream: *mut FILE);
-}
-extern "C" {
-    pub fn fprintf(
-        __stream: *mut FILE,
-        __format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn printf(__format: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn sprintf(
-        __s: *mut ::std::os::raw::c_char,
-        __format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn vfprintf(
-        __s: *mut FILE,
-        __format: *const ::std::os::raw::c_char,
-        __arg: *mut __va_list_tag,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn vprintf(
-        __format: *const ::std::os::raw::c_char,
-        __arg: *mut __va_list_tag,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn vsprintf(
-        __s: *mut ::std::os::raw::c_char,
-        __format: *const ::std::os::raw::c_char,
-        __arg: *mut __va_list_tag,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn snprintf(
-        __s: *mut ::std::os::raw::c_char,
-        __maxlen: ::std::os::raw::c_ulong,
-        __format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn vsnprintf(
-        __s: *mut ::std::os::raw::c_char,
-        __maxlen: ::std::os::raw::c_ulong,
-        __format: *const ::std::os::raw::c_char,
-        __arg: *mut __va_list_tag,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn vdprintf(
-        __fd: ::std::os::raw::c_int,
-        __fmt: *const ::std::os::raw::c_char,
-        __arg: *mut __va_list_tag,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn dprintf(
-        __fd: ::std::os::raw::c_int,
-        __fmt: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fscanf(
-        __stream: *mut FILE,
-        __format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn scanf(__format: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn sscanf(
-        __s: *const ::std::os::raw::c_char,
-        __format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-pub type _Float32 = f32;
-pub type _Float64 = f64;
-pub type _Float32x = f64;
-pub type _Float64x = u128;
-extern "C" {
-    #[link_name = "\u{1}__isoc99_fscanf"]
-    pub fn fscanf1(
-        __stream: *mut FILE,
-        __format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    #[link_name = "\u{1}__isoc99_scanf"]
-    pub fn scanf1(__format: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    #[link_name = "\u{1}__isoc99_sscanf"]
-    pub fn sscanf1(
-        __s: *const ::std::os::raw::c_char,
-        __format: *const ::std::os::raw::c_char,
-        ...
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn vfscanf(
-        __s: *mut FILE,
-        __format: *const ::std::os::raw::c_char,
-        __arg: *mut __va_list_tag,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn vscanf(
-        __format: *const ::std::os::raw::c_char,
-        __arg: *mut __va_list_tag,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn vsscanf(
-        __s: *const ::std::os::raw::c_char,
-        __format: *const ::std::os::raw::c_char,
-        __arg: *mut __va_list_tag,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    #[link_name = "\u{1}__isoc99_vfscanf"]
-    pub fn vfscanf1(
-        __s: *mut FILE,
-        __format: *const ::std::os::raw::c_char,
-        __arg: *mut __va_list_tag,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    #[link_name = "\u{1}__isoc99_vscanf"]
-    pub fn vscanf1(
-        __format: *const ::std::os::raw::c_char,
-        __arg: *mut __va_list_tag,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    #[link_name = "\u{1}__isoc99_vsscanf"]
-    pub fn vsscanf1(
-        __s: *const ::std::os::raw::c_char,
-        __format: *const ::std::os::raw::c_char,
-        __arg: *mut __va_list_tag,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fgetc(__stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn getc(__stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn getchar() -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn getc_unlocked(__stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn getchar_unlocked() -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fgetc_unlocked(__stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fputc(__c: ::std::os::raw::c_int, __stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn putc(__c: ::std::os::raw::c_int, __stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn putchar(__c: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fputc_unlocked(__c: ::std::os::raw::c_int, __stream: *mut FILE)
-        -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn putc_unlocked(__c: ::std::os::raw::c_int, __stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn putchar_unlocked(__c: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn getw(__stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn putw(__w: ::std::os::raw::c_int, __stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fgets(
-        __s: *mut ::std::os::raw::c_char,
-        __n: ::std::os::raw::c_int,
-        __stream: *mut FILE,
-    ) -> *mut ::std::os::raw::c_char;
-}
-extern "C" {
-    pub fn __getdelim(
-        __lineptr: *mut *mut ::std::os::raw::c_char,
-        __n: *mut usize,
-        __delimiter: ::std::os::raw::c_int,
-        __stream: *mut FILE,
-    ) -> __ssize_t;
-}
-extern "C" {
-    pub fn getdelim(
-        __lineptr: *mut *mut ::std::os::raw::c_char,
-        __n: *mut usize,
-        __delimiter: ::std::os::raw::c_int,
-        __stream: *mut FILE,
-    ) -> __ssize_t;
-}
-extern "C" {
-    pub fn getline(
-        __lineptr: *mut *mut ::std::os::raw::c_char,
-        __n: *mut usize,
-        __stream: *mut FILE,
-    ) -> __ssize_t;
-}
-extern "C" {
-    pub fn fputs(__s: *const ::std::os::raw::c_char, __stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn puts(__s: *const ::std::os::raw::c_char) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn ungetc(__c: ::std::os::raw::c_int, __stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fread(
-        __ptr: *mut ::core::ffi::c_void,
-        __size: ::std::os::raw::c_ulong,
-        __n: ::std::os::raw::c_ulong,
-        __stream: *mut FILE,
-    ) -> ::std::os::raw::c_ulong;
-}
-extern "C" {
-    pub fn fwrite(
-        __ptr: *const ::core::ffi::c_void,
-        __size: ::std::os::raw::c_ulong,
-        __n: ::std::os::raw::c_ulong,
-        __s: *mut FILE,
-    ) -> ::std::os::raw::c_ulong;
-}
-extern "C" {
-    pub fn fread_unlocked(
-        __ptr: *mut ::core::ffi::c_void,
-        __size: usize,
-        __n: usize,
-        __stream: *mut FILE,
-    ) -> usize;
-}
-extern "C" {
-    pub fn fwrite_unlocked(
-        __ptr: *const ::core::ffi::c_void,
-        __size: usize,
-        __n: usize,
-        __stream: *mut FILE,
-    ) -> usize;
-}
-extern "C" {
-    pub fn fseek(
-        __stream: *mut FILE,
-        __off: ::std::os::raw::c_long,
-        __whence: ::std::os::raw::c_int,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn ftell(__stream: *mut FILE) -> ::std::os::raw::c_long;
-}
-extern "C" {
-    pub fn rewind(__stream: *mut FILE);
-}
-extern "C" {
-    pub fn fseeko(
-        __stream: *mut FILE,
-        __off: __off_t,
-        __whence: ::std::os::raw::c_int,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn ftello(__stream: *mut FILE) -> __off_t;
-}
-extern "C" {
-    pub fn fgetpos(__stream: *mut FILE, __pos: *mut fpos_t) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fsetpos(__stream: *mut FILE, __pos: *const fpos_t) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn clearerr(__stream: *mut FILE);
-}
-extern "C" {
-    pub fn feof(__stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn ferror(__stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn clearerr_unlocked(__stream: *mut FILE);
-}
-extern "C" {
-    pub fn feof_unlocked(__stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn ferror_unlocked(__stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn perror(__s: *const ::std::os::raw::c_char);
-}
-extern "C" {
-    pub fn fileno(__stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn fileno_unlocked(__stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn popen(
-        __command: *const ::std::os::raw::c_char,
-        __modes: *const ::std::os::raw::c_char,
-    ) -> *mut FILE;
-}
-extern "C" {
-    pub fn pclose(__stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn ctermid(__s: *mut ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
-}
-extern "C" {
-    pub fn flockfile(__stream: *mut FILE);
-}
-extern "C" {
-    pub fn ftrylockfile(__stream: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn funlockfile(__stream: *mut FILE);
-}
-extern "C" {
-    pub fn __uflow(arg1: *mut FILE) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn __overflow(arg1: *mut FILE, arg2: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
-}
-pub const gpg_err_source_t_GPG_ERR_SOURCE_UNKNOWN: gpg_err_source_t = 0;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_GCRYPT: gpg_err_source_t = 1;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_GPG: gpg_err_source_t = 2;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_GPGSM: gpg_err_source_t = 3;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_GPGAGENT: gpg_err_source_t = 4;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_PINENTRY: gpg_err_source_t = 5;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_SCD: gpg_err_source_t = 6;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_GPGME: gpg_err_source_t = 7;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_KEYBOX: gpg_err_source_t = 8;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_KSBA: gpg_err_source_t = 9;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_DIRMNGR: gpg_err_source_t = 10;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_GSTI: gpg_err_source_t = 11;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_GPA: gpg_err_source_t = 12;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_KLEO: gpg_err_source_t = 13;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_G13: gpg_err_source_t = 14;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_ASSUAN: gpg_err_source_t = 15;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_TPM2D: gpg_err_source_t = 16;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_TLS: gpg_err_source_t = 17;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_ANY: gpg_err_source_t = 31;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_USER_1: gpg_err_source_t = 32;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_USER_2: gpg_err_source_t = 33;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_USER_3: gpg_err_source_t = 34;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_USER_4: gpg_err_source_t = 35;
-pub const gpg_err_source_t_GPG_ERR_SOURCE_DIM: gpg_err_source_t = 128;
-pub type gpg_err_source_t = ::std::os::raw::c_uint;
-pub const gpg_err_code_t_GPG_ERR_NO_ERROR: gpg_err_code_t = 0;
-pub const gpg_err_code_t_GPG_ERR_GENERAL: gpg_err_code_t = 1;
-pub const gpg_err_code_t_GPG_ERR_UNKNOWN_PACKET: gpg_err_code_t = 2;
-pub const gpg_err_code_t_GPG_ERR_UNKNOWN_VERSION: gpg_err_code_t = 3;
-pub const gpg_err_code_t_GPG_ERR_PUBKEY_ALGO: gpg_err_code_t = 4;
-pub const gpg_err_code_t_GPG_ERR_DIGEST_ALGO: gpg_err_code_t = 5;
-pub const gpg_err_code_t_GPG_ERR_BAD_PUBKEY: gpg_err_code_t = 6;
-pub const gpg_err_code_t_GPG_ERR_BAD_SECKEY: gpg_err_code_t = 7;
-pub const gpg_err_code_t_GPG_ERR_BAD_SIGNATURE: gpg_err_code_t = 8;
-pub const gpg_err_code_t_GPG_ERR_NO_PUBKEY: gpg_err_code_t = 9;
-pub const gpg_err_code_t_GPG_ERR_CHECKSUM: gpg_err_code_t = 10;
-pub const gpg_err_code_t_GPG_ERR_BAD_PASSPHRASE: gpg_err_code_t = 11;
-pub const gpg_err_code_t_GPG_ERR_CIPHER_ALGO: gpg_err_code_t = 12;
-pub const gpg_err_code_t_GPG_ERR_KEYRING_OPEN: gpg_err_code_t = 13;
-pub const gpg_err_code_t_GPG_ERR_INV_PACKET: gpg_err_code_t = 14;
-pub const gpg_err_code_t_GPG_ERR_INV_ARMOR: gpg_err_code_t = 15;
-pub const gpg_err_code_t_GPG_ERR_NO_USER_ID: gpg_err_code_t = 16;
-pub const gpg_err_code_t_GPG_ERR_NO_SECKEY: gpg_err_code_t = 17;
-pub const gpg_err_code_t_GPG_ERR_WRONG_SECKEY: gpg_err_code_t = 18;
-pub const gpg_err_code_t_GPG_ERR_BAD_KEY: gpg_err_code_t = 19;
-pub const gpg_err_code_t_GPG_ERR_COMPR_ALGO: gpg_err_code_t = 20;
-pub const gpg_err_code_t_GPG_ERR_NO_PRIME: gpg_err_code_t = 21;
-pub const gpg_err_code_t_GPG_ERR_NO_ENCODING_METHOD: gpg_err_code_t = 22;
-pub const gpg_err_code_t_GPG_ERR_NO_ENCRYPTION_SCHEME: gpg_err_code_t = 23;
-pub const gpg_err_code_t_GPG_ERR_NO_SIGNATURE_SCHEME: gpg_err_code_t = 24;
-pub const gpg_err_code_t_GPG_ERR_INV_ATTR: gpg_err_code_t = 25;
-pub const gpg_err_code_t_GPG_ERR_NO_VALUE: gpg_err_code_t = 26;
-pub const gpg_err_code_t_GPG_ERR_NOT_FOUND: gpg_err_code_t = 27;
-pub const gpg_err_code_t_GPG_ERR_VALUE_NOT_FOUND: gpg_err_code_t = 28;
-pub const gpg_err_code_t_GPG_ERR_SYNTAX: gpg_err_code_t = 29;
-pub const gpg_err_code_t_GPG_ERR_BAD_MPI: gpg_err_code_t = 30;
-pub const gpg_err_code_t_GPG_ERR_INV_PASSPHRASE: gpg_err_code_t = 31;
-pub const gpg_err_code_t_GPG_ERR_SIG_CLASS: gpg_err_code_t = 32;
-pub const gpg_err_code_t_GPG_ERR_RESOURCE_LIMIT: gpg_err_code_t = 33;
-pub const gpg_err_code_t_GPG_ERR_INV_KEYRING: gpg_err_code_t = 34;
-pub const gpg_err_code_t_GPG_ERR_TRUSTDB: gpg_err_code_t = 35;
-pub const gpg_err_code_t_GPG_ERR_BAD_CERT: gpg_err_code_t = 36;
-pub const gpg_err_code_t_GPG_ERR_INV_USER_ID: gpg_err_code_t = 37;
-pub const gpg_err_code_t_GPG_ERR_UNEXPECTED: gpg_err_code_t = 38;
-pub const gpg_err_code_t_GPG_ERR_TIME_CONFLICT: gpg_err_code_t = 39;
-pub const gpg_err_code_t_GPG_ERR_KEYSERVER: gpg_err_code_t = 40;
-pub const gpg_err_code_t_GPG_ERR_WRONG_PUBKEY_ALGO: gpg_err_code_t = 41;
-pub const gpg_err_code_t_GPG_ERR_TRIBUTE_TO_D_A: gpg_err_code_t = 42;
-pub const gpg_err_code_t_GPG_ERR_WEAK_KEY: gpg_err_code_t = 43;
-pub const gpg_err_code_t_GPG_ERR_INV_KEYLEN: gpg_err_code_t = 44;
-pub const gpg_err_code_t_GPG_ERR_INV_ARG: gpg_err_code_t = 45;
-pub const gpg_err_code_t_GPG_ERR_BAD_URI: gpg_err_code_t = 46;
-pub const gpg_err_code_t_GPG_ERR_INV_URI: gpg_err_code_t = 47;
-pub const gpg_err_code_t_GPG_ERR_NETWORK: gpg_err_code_t = 48;
-pub const gpg_err_code_t_GPG_ERR_UNKNOWN_HOST: gpg_err_code_t = 49;
-pub const gpg_err_code_t_GPG_ERR_SELFTEST_FAILED: gpg_err_code_t = 50;
-pub const gpg_err_code_t_GPG_ERR_NOT_ENCRYPTED: gpg_err_code_t = 51;
-pub const gpg_err_code_t_GPG_ERR_NOT_PROCESSED: gpg_err_code_t = 52;
-pub const gpg_err_code_t_GPG_ERR_UNUSABLE_PUBKEY: gpg_err_code_t = 53;
-pub const gpg_err_code_t_GPG_ERR_UNUSABLE_SECKEY: gpg_err_code_t = 54;
-pub const gpg_err_code_t_GPG_ERR_INV_VALUE: gpg_err_code_t = 55;
-pub const gpg_err_code_t_GPG_ERR_BAD_CERT_CHAIN: gpg_err_code_t = 56;
-pub const gpg_err_code_t_GPG_ERR_MISSING_CERT: gpg_err_code_t = 57;
-pub const gpg_err_code_t_GPG_ERR_NO_DATA: gpg_err_code_t = 58;
-pub const gpg_err_code_t_GPG_ERR_BUG: gpg_err_code_t = 59;
-pub const gpg_err_code_t_GPG_ERR_NOT_SUPPORTED: gpg_err_code_t = 60;
-pub const gpg_err_code_t_GPG_ERR_INV_OP: gpg_err_code_t = 61;
-pub const gpg_err_code_t_GPG_ERR_TIMEOUT: gpg_err_code_t = 62;
-pub const gpg_err_code_t_GPG_ERR_INTERNAL: gpg_err_code_t = 63;
-pub const gpg_err_code_t_GPG_ERR_EOF_GCRYPT: gpg_err_code_t = 64;
-pub const gpg_err_code_t_GPG_ERR_INV_OBJ: gpg_err_code_t = 65;
-pub const gpg_err_code_t_GPG_ERR_TOO_SHORT: gpg_err_code_t = 66;
-pub const gpg_err_code_t_GPG_ERR_TOO_LARGE: gpg_err_code_t = 67;
-pub const gpg_err_code_t_GPG_ERR_NO_OBJ: gpg_err_code_t = 68;
-pub const gpg_err_code_t_GPG_ERR_NOT_IMPLEMENTED: gpg_err_code_t = 69;
-pub const gpg_err_code_t_GPG_ERR_CONFLICT: gpg_err_code_t = 70;
-pub const gpg_err_code_t_GPG_ERR_INV_CIPHER_MODE: gpg_err_code_t = 71;
-pub const gpg_err_code_t_GPG_ERR_INV_FLAG: gpg_err_code_t = 72;
-pub const gpg_err_code_t_GPG_ERR_INV_HANDLE: gpg_err_code_t = 73;
-pub const gpg_err_code_t_GPG_ERR_TRUNCATED: gpg_err_code_t = 74;
-pub const gpg_err_code_t_GPG_ERR_INCOMPLETE_LINE: gpg_err_code_t = 75;
-pub const gpg_err_code_t_GPG_ERR_INV_RESPONSE: gpg_err_code_t = 76;
-pub const gpg_err_code_t_GPG_ERR_NO_AGENT: gpg_err_code_t = 77;
-pub const gpg_err_code_t_GPG_ERR_AGENT: gpg_err_code_t = 78;
-pub const gpg_err_code_t_GPG_ERR_INV_DATA: gpg_err_code_t = 79;
-pub const gpg_err_code_t_GPG_ERR_ASSUAN_SERVER_FAULT: gpg_err_code_t = 80;
-pub const gpg_err_code_t_GPG_ERR_ASSUAN: gpg_err_code_t = 81;
-pub const gpg_err_code_t_GPG_ERR_INV_SESSION_KEY: gpg_err_code_t = 82;
-pub const gpg_err_code_t_GPG_ERR_INV_SEXP: gpg_err_code_t = 83;
-pub const gpg_err_code_t_GPG_ERR_UNSUPPORTED_ALGORITHM: gpg_err_code_t = 84;
-pub const gpg_err_code_t_GPG_ERR_NO_PIN_ENTRY: gpg_err_code_t = 85;
-pub const gpg_err_code_t_GPG_ERR_PIN_ENTRY: gpg_err_code_t = 86;
-pub const gpg_err_code_t_GPG_ERR_BAD_PIN: gpg_err_code_t = 87;
-pub const gpg_err_code_t_GPG_ERR_INV_NAME: gpg_err_code_t = 88;
-pub const gpg_err_code_t_GPG_ERR_BAD_DATA: gpg_err_code_t = 89;
-pub const gpg_err_code_t_GPG_ERR_INV_PARAMETER: gpg_err_code_t = 90;
-pub const gpg_err_code_t_GPG_ERR_WRONG_CARD: gpg_err_code_t = 91;
-pub const gpg_err_code_t_GPG_ERR_NO_DIRMNGR: gpg_err_code_t = 92;
-pub const gpg_err_code_t_GPG_ERR_DIRMNGR: gpg_err_code_t = 93;
-pub const gpg_err_code_t_GPG_ERR_CERT_REVOKED: gpg_err_code_t = 94;
-pub const gpg_err_code_t_GPG_ERR_NO_CRL_KNOWN: gpg_err_code_t = 95;
-pub const gpg_err_code_t_GPG_ERR_CRL_TOO_OLD: gpg_err_code_t = 96;
-pub const gpg_err_code_t_GPG_ERR_LINE_TOO_LONG: gpg_err_code_t = 97;
-pub const gpg_err_code_t_GPG_ERR_NOT_TRUSTED: gpg_err_code_t = 98;
-pub const gpg_err_code_t_GPG_ERR_CANCELED: gpg_err_code_t = 99;
-pub const gpg_err_code_t_GPG_ERR_BAD_CA_CERT: gpg_err_code_t = 100;
-pub const gpg_err_code_t_GPG_ERR_CERT_EXPIRED: gpg_err_code_t = 101;
-pub const gpg_err_code_t_GPG_ERR_CERT_TOO_YOUNG: gpg_err_code_t = 102;
-pub const gpg_err_code_t_GPG_ERR_UNSUPPORTED_CERT: gpg_err_code_t = 103;
-pub const gpg_err_code_t_GPG_ERR_UNKNOWN_SEXP: gpg_err_code_t = 104;
-pub const gpg_err_code_t_GPG_ERR_UNSUPPORTED_PROTECTION: gpg_err_code_t = 105;
-pub const gpg_err_code_t_GPG_ERR_CORRUPTED_PROTECTION: gpg_err_code_t = 106;
-pub const gpg_err_code_t_GPG_ERR_AMBIGUOUS_NAME: gpg_err_code_t = 107;
-pub const gpg_err_code_t_GPG_ERR_CARD: gpg_err_code_t = 108;
-pub const gpg_err_code_t_GPG_ERR_CARD_RESET: gpg_err_code_t = 109;
-pub const gpg_err_code_t_GPG_ERR_CARD_REMOVED: gpg_err_code_t = 110;
-pub const gpg_err_code_t_GPG_ERR_INV_CARD: gpg_err_code_t = 111;
-pub const gpg_err_code_t_GPG_ERR_CARD_NOT_PRESENT: gpg_err_code_t = 112;
-pub const gpg_err_code_t_GPG_ERR_NO_PKCS15_APP: gpg_err_code_t = 113;
-pub const gpg_err_code_t_GPG_ERR_NOT_CONFIRMED: gpg_err_code_t = 114;
-pub const gpg_err_code_t_GPG_ERR_CONFIGURATION: gpg_err_code_t = 115;
-pub const gpg_err_code_t_GPG_ERR_NO_POLICY_MATCH: gpg_err_code_t = 116;
-pub const gpg_err_code_t_GPG_ERR_INV_INDEX: gpg_err_code_t = 117;
-pub const gpg_err_code_t_GPG_ERR_INV_ID: gpg_err_code_t = 118;
-pub const gpg_err_code_t_GPG_ERR_NO_SCDAEMON: gpg_err_code_t = 119;
-pub const gpg_err_code_t_GPG_ERR_SCDAEMON: gpg_err_code_t = 120;
-pub const gpg_err_code_t_GPG_ERR_UNSUPPORTED_PROTOCOL: gpg_err_code_t = 121;
-pub const gpg_err_code_t_GPG_ERR_BAD_PIN_METHOD: gpg_err_code_t = 122;
-pub const gpg_err_code_t_GPG_ERR_CARD_NOT_INITIALIZED: gpg_err_code_t = 123;
-pub const gpg_err_code_t_GPG_ERR_UNSUPPORTED_OPERATION: gpg_err_code_t = 124;
-pub const gpg_err_code_t_GPG_ERR_WRONG_KEY_USAGE: gpg_err_code_t = 125;
-pub const gpg_err_code_t_GPG_ERR_NOTHING_FOUND: gpg_err_code_t = 126;
-pub const gpg_err_code_t_GPG_ERR_WRONG_BLOB_TYPE: gpg_err_code_t = 127;
-pub const gpg_err_code_t_GPG_ERR_MISSING_VALUE: gpg_err_code_t = 128;
-pub const gpg_err_code_t_GPG_ERR_HARDWARE: gpg_err_code_t = 129;
-pub const gpg_err_code_t_GPG_ERR_PIN_BLOCKED: gpg_err_code_t = 130;
-pub const gpg_err_code_t_GPG_ERR_USE_CONDITIONS: gpg_err_code_t = 131;
-pub const gpg_err_code_t_GPG_ERR_PIN_NOT_SYNCED: gpg_err_code_t = 132;
-pub const gpg_err_code_t_GPG_ERR_INV_CRL: gpg_err_code_t = 133;
-pub const gpg_err_code_t_GPG_ERR_BAD_BER: gpg_err_code_t = 134;
-pub const gpg_err_code_t_GPG_ERR_INV_BER: gpg_err_code_t = 135;
-pub const gpg_err_code_t_GPG_ERR_ELEMENT_NOT_FOUND: gpg_err_code_t = 136;
-pub const gpg_err_code_t_GPG_ERR_IDENTIFIER_NOT_FOUND: gpg_err_code_t = 137;
-pub const gpg_err_code_t_GPG_ERR_INV_TAG: gpg_err_code_t = 138;
-pub const gpg_err_code_t_GPG_ERR_INV_LENGTH: gpg_err_code_t = 139;
-pub const gpg_err_code_t_GPG_ERR_INV_KEYINFO: gpg_err_code_t = 140;
-pub const gpg_err_code_t_GPG_ERR_UNEXPECTED_TAG: gpg_err_code_t = 141;
-pub const gpg_err_code_t_GPG_ERR_NOT_DER_ENCODED: gpg_err_code_t = 142;
-pub const gpg_err_code_t_GPG_ERR_NO_CMS_OBJ: gpg_err_code_t = 143;
-pub const gpg_err_code_t_GPG_ERR_INV_CMS_OBJ: gpg_err_code_t = 144;
-pub const gpg_err_code_t_GPG_ERR_UNKNOWN_CMS_OBJ: gpg_err_code_t = 145;
-pub const gpg_err_code_t_GPG_ERR_UNSUPPORTED_CMS_OBJ: gpg_err_code_t = 146;
-pub const gpg_err_code_t_GPG_ERR_UNSUPPORTED_ENCODING: gpg_err_code_t = 147;
-pub const gpg_err_code_t_GPG_ERR_UNSUPPORTED_CMS_VERSION: gpg_err_code_t = 148;
-pub const gpg_err_code_t_GPG_ERR_UNKNOWN_ALGORITHM: gpg_err_code_t = 149;
-pub const gpg_err_code_t_GPG_ERR_INV_ENGINE: gpg_err_code_t = 150;
-pub const gpg_err_code_t_GPG_ERR_PUBKEY_NOT_TRUSTED: gpg_err_code_t = 151;
-pub const gpg_err_code_t_GPG_ERR_DECRYPT_FAILED: gpg_err_code_t = 152;
-pub const gpg_err_code_t_GPG_ERR_KEY_EXPIRED: gpg_err_code_t = 153;
-pub const gpg_err_code_t_GPG_ERR_SIG_EXPIRED: gpg_err_code_t = 154;
-pub const gpg_err_code_t_GPG_ERR_ENCODING_PROBLEM: gpg_err_code_t = 155;
-pub const gpg_err_code_t_GPG_ERR_INV_STATE: gpg_err_code_t = 156;
-pub const gpg_err_code_t_GPG_ERR_DUP_VALUE: gpg_err_code_t = 157;
-pub const gpg_err_code_t_GPG_ERR_MISSING_ACTION: gpg_err_code_t = 158;
-pub const gpg_err_code_t_GPG_ERR_MODULE_NOT_FOUND: gpg_err_code_t = 159;
-pub const gpg_err_code_t_GPG_ERR_INV_OID_STRING: gpg_err_code_t = 160;
-pub const gpg_err_code_t_GPG_ERR_INV_TIME: gpg_err_code_t = 161;
-pub const gpg_err_code_t_GPG_ERR_INV_CRL_OBJ: gpg_err_code_t = 162;
-pub const gpg_err_code_t_GPG_ERR_UNSUPPORTED_CRL_VERSION: gpg_err_code_t = 163;
-pub const gpg_err_code_t_GPG_ERR_INV_CERT_OBJ: gpg_err_code_t = 164;
-pub const gpg_err_code_t_GPG_ERR_UNKNOWN_NAME: gpg_err_code_t = 165;
-pub const gpg_err_code_t_GPG_ERR_LOCALE_PROBLEM: gpg_err_code_t = 166;
-pub const gpg_err_code_t_GPG_ERR_NOT_LOCKED: gpg_err_code_t = 167;
-pub const gpg_err_code_t_GPG_ERR_PROTOCOL_VIOLATION: gpg_err_code_t = 168;
-pub const gpg_err_code_t_GPG_ERR_INV_MAC: gpg_err_code_t = 169;
-pub const gpg_err_code_t_GPG_ERR_INV_REQUEST: gpg_err_code_t = 170;
-pub const gpg_err_code_t_GPG_ERR_UNKNOWN_EXTN: gpg_err_code_t = 171;
-pub const gpg_err_code_t_GPG_ERR_UNKNOWN_CRIT_EXTN: gpg_err_code_t = 172;
-pub const gpg_err_code_t_GPG_ERR_LOCKED: gpg_err_code_t = 173;
-pub const gpg_err_code_t_GPG_ERR_UNKNOWN_OPTION: gpg_err_code_t = 174;
-pub const gpg_err_code_t_GPG_ERR_UNKNOWN_COMMAND: gpg_err_code_t = 175;
-pub const gpg_err_code_t_GPG_ERR_NOT_OPERATIONAL: gpg_err_code_t = 176;
-pub const gpg_err_code_t_GPG_ERR_NO_PASSPHRASE: gpg_err_code_t = 177;
-pub const gpg_err_code_t_GPG_ERR_NO_PIN: gpg_err_code_t = 178;
-pub const gpg_err_code_t_GPG_ERR_NOT_ENABLED: gpg_err_code_t = 179;
-pub const gpg_err_code_t_GPG_ERR_NO_ENGINE: gpg_err_code_t = 180;
-pub const gpg_err_code_t_GPG_ERR_MISSING_KEY: gpg_err_code_t = 181;
-pub const gpg_err_code_t_GPG_ERR_TOO_MANY: gpg_err_code_t = 182;
-pub const gpg_err_code_t_GPG_ERR_LIMIT_REACHED: gpg_err_code_t = 183;
-pub const gpg_err_code_t_GPG_ERR_NOT_INITIALIZED: gpg_err_code_t = 184;
-pub const gpg_err_code_t_GPG_ERR_MISSING_ISSUER_CERT: gpg_err_code_t = 185;
-pub const gpg_err_code_t_GPG_ERR_NO_KEYSERVER: gpg_err_code_t = 186;
-pub const gpg_err_code_t_GPG_ERR_INV_CURVE: gpg_err_code_t = 187;
-pub const gpg_err_code_t_GPG_ERR_UNKNOWN_CURVE: gpg_err_code_t = 188;
-pub const gpg_err_code_t_GPG_ERR_DUP_KEY: gpg_err_code_t = 189;
-pub const gpg_err_code_t_GPG_ERR_AMBIGUOUS: gpg_err_code_t = 190;
-pub const gpg_err_code_t_GPG_ERR_NO_CRYPT_CTX: gpg_err_code_t = 191;
-pub const gpg_err_code_t_GPG_ERR_WRONG_CRYPT_CTX: gpg_err_code_t = 192;
-pub const gpg_err_code_t_GPG_ERR_BAD_CRYPT_CTX: gpg_err_code_t = 193;
-pub const gpg_err_code_t_GPG_ERR_CRYPT_CTX_CONFLICT: gpg_err_code_t = 194;
-pub const gpg_err_code_t_GPG_ERR_BROKEN_PUBKEY: gpg_err_code_t = 195;
-pub const gpg_err_code_t_GPG_ERR_BROKEN_SECKEY: gpg_err_code_t = 196;
-pub const gpg_err_code_t_GPG_ERR_MAC_ALGO: gpg_err_code_t = 197;
-pub const gpg_err_code_t_GPG_ERR_FULLY_CANCELED: gpg_err_code_t = 198;
-pub const gpg_err_code_t_GPG_ERR_UNFINISHED: gpg_err_code_t = 199;
-pub const gpg_err_code_t_GPG_ERR_BUFFER_TOO_SHORT: gpg_err_code_t = 200;
-pub const gpg_err_code_t_GPG_ERR_SEXP_INV_LEN_SPEC: gpg_err_code_t = 201;
-pub const gpg_err_code_t_GPG_ERR_SEXP_STRING_TOO_LONG: gpg_err_code_t = 202;
-pub const gpg_err_code_t_GPG_ERR_SEXP_UNMATCHED_PAREN: gpg_err_code_t = 203;
-pub const gpg_err_code_t_GPG_ERR_SEXP_NOT_CANONICAL: gpg_err_code_t = 204;
-pub const gpg_err_code_t_GPG_ERR_SEXP_BAD_CHARACTER: gpg_err_code_t = 205;
-pub const gpg_err_code_t_GPG_ERR_SEXP_BAD_QUOTATION: gpg_err_code_t = 206;
-pub const gpg_err_code_t_GPG_ERR_SEXP_ZERO_PREFIX: gpg_err_code_t = 207;
-pub const gpg_err_code_t_GPG_ERR_SEXP_NESTED_DH: gpg_err_code_t = 208;
-pub const gpg_err_code_t_GPG_ERR_SEXP_UNMATCHED_DH: gpg_err_code_t = 209;
-pub const gpg_err_code_t_GPG_ERR_SEXP_UNEXPECTED_PUNC: gpg_err_code_t = 210;
-pub const gpg_err_code_t_GPG_ERR_SEXP_BAD_HEX_CHAR: gpg_err_code_t = 211;
-pub const gpg_err_code_t_GPG_ERR_SEXP_ODD_HEX_NUMBERS: gpg_err_code_t = 212;
-pub const gpg_err_code_t_GPG_ERR_SEXP_BAD_OCT_CHAR: gpg_err_code_t = 213;
-pub const gpg_err_code_t_GPG_ERR_SUBKEYS_EXP_OR_REV: gpg_err_code_t = 217;
-pub const gpg_err_code_t_GPG_ERR_DB_CORRUPTED: gpg_err_code_t = 218;
-pub const gpg_err_code_t_GPG_ERR_SERVER_FAILED: gpg_err_code_t = 219;
-pub const gpg_err_code_t_GPG_ERR_NO_NAME: gpg_err_code_t = 220;
-pub const gpg_err_code_t_GPG_ERR_NO_KEY: gpg_err_code_t = 221;
-pub const gpg_err_code_t_GPG_ERR_LEGACY_KEY: gpg_err_code_t = 222;
-pub const gpg_err_code_t_GPG_ERR_REQUEST_TOO_SHORT: gpg_err_code_t = 223;
-pub const gpg_err_code_t_GPG_ERR_REQUEST_TOO_LONG: gpg_err_code_t = 224;
-pub const gpg_err_code_t_GPG_ERR_OBJ_TERM_STATE: gpg_err_code_t = 225;
-pub const gpg_err_code_t_GPG_ERR_NO_CERT_CHAIN: gpg_err_code_t = 226;
-pub const gpg_err_code_t_GPG_ERR_CERT_TOO_LARGE: gpg_err_code_t = 227;
-pub const gpg_err_code_t_GPG_ERR_INV_RECORD: gpg_err_code_t = 228;
-pub const gpg_err_code_t_GPG_ERR_BAD_MAC: gpg_err_code_t = 229;
-pub const gpg_err_code_t_GPG_ERR_UNEXPECTED_MSG: gpg_err_code_t = 230;
-pub const gpg_err_code_t_GPG_ERR_COMPR_FAILED: gpg_err_code_t = 231;
-pub const gpg_err_code_t_GPG_ERR_WOULD_WRAP: gpg_err_code_t = 232;
-pub const gpg_err_code_t_GPG_ERR_FATAL_ALERT: gpg_err_code_t = 233;
-pub const gpg_err_code_t_GPG_ERR_NO_CIPHER: gpg_err_code_t = 234;
-pub const gpg_err_code_t_GPG_ERR_MISSING_CLIENT_CERT: gpg_err_code_t = 235;
-pub const gpg_err_code_t_GPG_ERR_CLOSE_NOTIFY: gpg_err_code_t = 236;
-pub const gpg_err_code_t_GPG_ERR_TICKET_EXPIRED: gpg_err_code_t = 237;
-pub const gpg_err_code_t_GPG_ERR_BAD_TICKET: gpg_err_code_t = 238;
-pub const gpg_err_code_t_GPG_ERR_UNKNOWN_IDENTITY: gpg_err_code_t = 239;
-pub const gpg_err_code_t_GPG_ERR_BAD_HS_CERT: gpg_err_code_t = 240;
-pub const gpg_err_code_t_GPG_ERR_BAD_HS_CERT_REQ: gpg_err_code_t = 241;
-pub const gpg_err_code_t_GPG_ERR_BAD_HS_CERT_VER: gpg_err_code_t = 242;
-pub const gpg_err_code_t_GPG_ERR_BAD_HS_CHANGE_CIPHER: gpg_err_code_t = 243;
-pub const gpg_err_code_t_GPG_ERR_BAD_HS_CLIENT_HELLO: gpg_err_code_t = 244;
-pub const gpg_err_code_t_GPG_ERR_BAD_HS_SERVER_HELLO: gpg_err_code_t = 245;
-pub const gpg_err_code_t_GPG_ERR_BAD_HS_SERVER_HELLO_DONE: gpg_err_code_t = 246;
-pub const gpg_err_code_t_GPG_ERR_BAD_HS_FINISHED: gpg_err_code_t = 247;
-pub const gpg_err_code_t_GPG_ERR_BAD_HS_SERVER_KEX: gpg_err_code_t = 248;
-pub const gpg_err_code_t_GPG_ERR_BAD_HS_CLIENT_KEX: gpg_err_code_t = 249;
-pub const gpg_err_code_t_GPG_ERR_BOGUS_STRING: gpg_err_code_t = 250;
-pub const gpg_err_code_t_GPG_ERR_FORBIDDEN: gpg_err_code_t = 251;
-pub const gpg_err_code_t_GPG_ERR_KEY_DISABLED: gpg_err_code_t = 252;
-pub const gpg_err_code_t_GPG_ERR_KEY_ON_CARD: gpg_err_code_t = 253;
-pub const gpg_err_code_t_GPG_ERR_INV_LOCK_OBJ: gpg_err_code_t = 254;
-pub const gpg_err_code_t_GPG_ERR_TRUE: gpg_err_code_t = 255;
-pub const gpg_err_code_t_GPG_ERR_FALSE: gpg_err_code_t = 256;
-pub const gpg_err_code_t_GPG_ERR_ASS_GENERAL: gpg_err_code_t = 257;
-pub const gpg_err_code_t_GPG_ERR_ASS_ACCEPT_FAILED: gpg_err_code_t = 258;
-pub const gpg_err_code_t_GPG_ERR_ASS_CONNECT_FAILED: gpg_err_code_t = 259;
-pub const gpg_err_code_t_GPG_ERR_ASS_INV_RESPONSE: gpg_err_code_t = 260;
-pub const gpg_err_code_t_GPG_ERR_ASS_INV_VALUE: gpg_err_code_t = 261;
-pub const gpg_err_code_t_GPG_ERR_ASS_INCOMPLETE_LINE: gpg_err_code_t = 262;
-pub const gpg_err_code_t_GPG_ERR_ASS_LINE_TOO_LONG: gpg_err_code_t = 263;
-pub const gpg_err_code_t_GPG_ERR_ASS_NESTED_COMMANDS: gpg_err_code_t = 264;
-pub const gpg_err_code_t_GPG_ERR_ASS_NO_DATA_CB: gpg_err_code_t = 265;
-pub const gpg_err_code_t_GPG_ERR_ASS_NO_INQUIRE_CB: gpg_err_code_t = 266;
-pub const gpg_err_code_t_GPG_ERR_ASS_NOT_A_SERVER: gpg_err_code_t = 267;
-pub const gpg_err_code_t_GPG_ERR_ASS_NOT_A_CLIENT: gpg_err_code_t = 268;
-pub const gpg_err_code_t_GPG_ERR_ASS_SERVER_START: gpg_err_code_t = 269;
-pub const gpg_err_code_t_GPG_ERR_ASS_READ_ERROR: gpg_err_code_t = 270;
-pub const gpg_err_code_t_GPG_ERR_ASS_WRITE_ERROR: gpg_err_code_t = 271;
-pub const gpg_err_code_t_GPG_ERR_ASS_TOO_MUCH_DATA: gpg_err_code_t = 273;
-pub const gpg_err_code_t_GPG_ERR_ASS_UNEXPECTED_CMD: gpg_err_code_t = 274;
-pub const gpg_err_code_t_GPG_ERR_ASS_UNKNOWN_CMD: gpg_err_code_t = 275;
-pub const gpg_err_code_t_GPG_ERR_ASS_SYNTAX: gpg_err_code_t = 276;
-pub const gpg_err_code_t_GPG_ERR_ASS_CANCELED: gpg_err_code_t = 277;
-pub const gpg_err_code_t_GPG_ERR_ASS_NO_INPUT: gpg_err_code_t = 278;
-pub const gpg_err_code_t_GPG_ERR_ASS_NO_OUTPUT: gpg_err_code_t = 279;
-pub const gpg_err_code_t_GPG_ERR_ASS_PARAMETER: gpg_err_code_t = 280;
-pub const gpg_err_code_t_GPG_ERR_ASS_UNKNOWN_INQUIRE: gpg_err_code_t = 281;
-pub const gpg_err_code_t_GPG_ERR_ENGINE_TOO_OLD: gpg_err_code_t = 300;
-pub const gpg_err_code_t_GPG_ERR_WINDOW_TOO_SMALL: gpg_err_code_t = 301;
-pub const gpg_err_code_t_GPG_ERR_WINDOW_TOO_LARGE: gpg_err_code_t = 302;
-pub const gpg_err_code_t_GPG_ERR_MISSING_ENVVAR: gpg_err_code_t = 303;
-pub const gpg_err_code_t_GPG_ERR_USER_ID_EXISTS: gpg_err_code_t = 304;
-pub const gpg_err_code_t_GPG_ERR_NAME_EXISTS: gpg_err_code_t = 305;
-pub const gpg_err_code_t_GPG_ERR_DUP_NAME: gpg_err_code_t = 306;
-pub const gpg_err_code_t_GPG_ERR_TOO_YOUNG: gpg_err_code_t = 307;
-pub const gpg_err_code_t_GPG_ERR_TOO_OLD: gpg_err_code_t = 308;
-pub const gpg_err_code_t_GPG_ERR_UNKNOWN_FLAG: gpg_err_code_t = 309;
-pub const gpg_err_code_t_GPG_ERR_INV_ORDER: gpg_err_code_t = 310;
-pub const gpg_err_code_t_GPG_ERR_ALREADY_FETCHED: gpg_err_code_t = 311;
-pub const gpg_err_code_t_GPG_ERR_TRY_LATER: gpg_err_code_t = 312;
-pub const gpg_err_code_t_GPG_ERR_WRONG_NAME: gpg_err_code_t = 313;
-pub const gpg_err_code_t_GPG_ERR_NO_AUTH: gpg_err_code_t = 314;
-pub const gpg_err_code_t_GPG_ERR_BAD_AUTH: gpg_err_code_t = 315;
-pub const gpg_err_code_t_GPG_ERR_NO_KEYBOXD: gpg_err_code_t = 316;
-pub const gpg_err_code_t_GPG_ERR_KEYBOXD: gpg_err_code_t = 317;
-pub const gpg_err_code_t_GPG_ERR_NO_SERVICE: gpg_err_code_t = 318;
-pub const gpg_err_code_t_GPG_ERR_SERVICE: gpg_err_code_t = 319;
-pub const gpg_err_code_t_GPG_ERR_SYSTEM_BUG: gpg_err_code_t = 666;
-pub const gpg_err_code_t_GPG_ERR_DNS_UNKNOWN: gpg_err_code_t = 711;
-pub const gpg_err_code_t_GPG_ERR_DNS_SECTION: gpg_err_code_t = 712;
-pub const gpg_err_code_t_GPG_ERR_DNS_ADDRESS: gpg_err_code_t = 713;
-pub const gpg_err_code_t_GPG_ERR_DNS_NO_QUERY: gpg_err_code_t = 714;
-pub const gpg_err_code_t_GPG_ERR_DNS_NO_ANSWER: gpg_err_code_t = 715;
-pub const gpg_err_code_t_GPG_ERR_DNS_CLOSED: gpg_err_code_t = 716;
-pub const gpg_err_code_t_GPG_ERR_DNS_VERIFY: gpg_err_code_t = 717;
-pub const gpg_err_code_t_GPG_ERR_DNS_TIMEOUT: gpg_err_code_t = 718;
-pub const gpg_err_code_t_GPG_ERR_LDAP_GENERAL: gpg_err_code_t = 721;
-pub const gpg_err_code_t_GPG_ERR_LDAP_ATTR_GENERAL: gpg_err_code_t = 722;
-pub const gpg_err_code_t_GPG_ERR_LDAP_NAME_GENERAL: gpg_err_code_t = 723;
-pub const gpg_err_code_t_GPG_ERR_LDAP_SECURITY_GENERAL: gpg_err_code_t = 724;
-pub const gpg_err_code_t_GPG_ERR_LDAP_SERVICE_GENERAL: gpg_err_code_t = 725;
-pub const gpg_err_code_t_GPG_ERR_LDAP_UPDATE_GENERAL: gpg_err_code_t = 726;
-pub const gpg_err_code_t_GPG_ERR_LDAP_E_GENERAL: gpg_err_code_t = 727;
-pub const gpg_err_code_t_GPG_ERR_LDAP_X_GENERAL: gpg_err_code_t = 728;
-pub const gpg_err_code_t_GPG_ERR_LDAP_OTHER_GENERAL: gpg_err_code_t = 729;
-pub const gpg_err_code_t_GPG_ERR_LDAP_X_CONNECTING: gpg_err_code_t = 750;
-pub const gpg_err_code_t_GPG_ERR_LDAP_REFERRAL_LIMIT: gpg_err_code_t = 751;
-pub const gpg_err_code_t_GPG_ERR_LDAP_CLIENT_LOOP: gpg_err_code_t = 752;
-pub const gpg_err_code_t_GPG_ERR_LDAP_NO_RESULTS: gpg_err_code_t = 754;
-pub const gpg_err_code_t_GPG_ERR_LDAP_CONTROL_NOT_FOUND: gpg_err_code_t = 755;
-pub const gpg_err_code_t_GPG_ERR_LDAP_NOT_SUPPORTED: gpg_err_code_t = 756;
-pub const gpg_err_code_t_GPG_ERR_LDAP_CONNECT: gpg_err_code_t = 757;
-pub const gpg_err_code_t_GPG_ERR_LDAP_NO_MEMORY: gpg_err_code_t = 758;
-pub const gpg_err_code_t_GPG_ERR_LDAP_PARAM: gpg_err_code_t = 759;
-pub const gpg_err_code_t_GPG_ERR_LDAP_USER_CANCELLED: gpg_err_code_t = 760;
-pub const gpg_err_code_t_GPG_ERR_LDAP_FILTER: gpg_err_code_t = 761;
-pub const gpg_err_code_t_GPG_ERR_LDAP_AUTH_UNKNOWN: gpg_err_code_t = 762;
-pub const gpg_err_code_t_GPG_ERR_LDAP_TIMEOUT: gpg_err_code_t = 763;
-pub const gpg_err_code_t_GPG_ERR_LDAP_DECODING: gpg_err_code_t = 764;
-pub const gpg_err_code_t_GPG_ERR_LDAP_ENCODING: gpg_err_code_t = 765;
-pub const gpg_err_code_t_GPG_ERR_LDAP_LOCAL: gpg_err_code_t = 766;
-pub const gpg_err_code_t_GPG_ERR_LDAP_SERVER_DOWN: gpg_err_code_t = 767;
-pub const gpg_err_code_t_GPG_ERR_LDAP_SUCCESS: gpg_err_code_t = 768;
-pub const gpg_err_code_t_GPG_ERR_LDAP_OPERATIONS: gpg_err_code_t = 769;
-pub const gpg_err_code_t_GPG_ERR_LDAP_PROTOCOL: gpg_err_code_t = 770;
-pub const gpg_err_code_t_GPG_ERR_LDAP_TIMELIMIT: gpg_err_code_t = 771;
-pub const gpg_err_code_t_GPG_ERR_LDAP_SIZELIMIT: gpg_err_code_t = 772;
-pub const gpg_err_code_t_GPG_ERR_LDAP_COMPARE_FALSE: gpg_err_code_t = 773;
-pub const gpg_err_code_t_GPG_ERR_LDAP_COMPARE_TRUE: gpg_err_code_t = 774;
-pub const gpg_err_code_t_GPG_ERR_LDAP_UNSUPPORTED_AUTH: gpg_err_code_t = 775;
-pub const gpg_err_code_t_GPG_ERR_LDAP_STRONG_AUTH_RQRD: gpg_err_code_t = 776;
-pub const gpg_err_code_t_GPG_ERR_LDAP_PARTIAL_RESULTS: gpg_err_code_t = 777;
-pub const gpg_err_code_t_GPG_ERR_LDAP_REFERRAL: gpg_err_code_t = 778;
-pub const gpg_err_code_t_GPG_ERR_LDAP_ADMINLIMIT: gpg_err_code_t = 779;
-pub const gpg_err_code_t_GPG_ERR_LDAP_UNAVAIL_CRIT_EXTN: gpg_err_code_t = 780;
-pub const gpg_err_code_t_GPG_ERR_LDAP_CONFIDENT_RQRD: gpg_err_code_t = 781;
-pub const gpg_err_code_t_GPG_ERR_LDAP_SASL_BIND_INPROG: gpg_err_code_t = 782;
-pub const gpg_err_code_t_GPG_ERR_LDAP_NO_SUCH_ATTRIBUTE: gpg_err_code_t = 784;
-pub const gpg_err_code_t_GPG_ERR_LDAP_UNDEFINED_TYPE: gpg_err_code_t = 785;
-pub const gpg_err_code_t_GPG_ERR_LDAP_BAD_MATCHING: gpg_err_code_t = 786;
-pub const gpg_err_code_t_GPG_ERR_LDAP_CONST_VIOLATION: gpg_err_code_t = 787;
-pub const gpg_err_code_t_GPG_ERR_LDAP_TYPE_VALUE_EXISTS: gpg_err_code_t = 788;
-pub const gpg_err_code_t_GPG_ERR_LDAP_INV_SYNTAX: gpg_err_code_t = 789;
-pub const gpg_err_code_t_GPG_ERR_LDAP_NO_SUCH_OBJ: gpg_err_code_t = 800;
-pub const gpg_err_code_t_GPG_ERR_LDAP_ALIAS_PROBLEM: gpg_err_code_t = 801;
-pub const gpg_err_code_t_GPG_ERR_LDAP_INV_DN_SYNTAX: gpg_err_code_t = 802;
-pub const gpg_err_code_t_GPG_ERR_LDAP_IS_LEAF: gpg_err_code_t = 803;
-pub const gpg_err_code_t_GPG_ERR_LDAP_ALIAS_DEREF: gpg_err_code_t = 804;
-pub const gpg_err_code_t_GPG_ERR_LDAP_X_PROXY_AUTH_FAIL: gpg_err_code_t = 815;
-pub const gpg_err_code_t_GPG_ERR_LDAP_BAD_AUTH: gpg_err_code_t = 816;
-pub const gpg_err_code_t_GPG_ERR_LDAP_INV_CREDENTIALS: gpg_err_code_t = 817;
-pub const gpg_err_code_t_GPG_ERR_LDAP_INSUFFICIENT_ACC: gpg_err_code_t = 818;
-pub const gpg_err_code_t_GPG_ERR_LDAP_BUSY: gpg_err_code_t = 819;
-pub const gpg_err_code_t_GPG_ERR_LDAP_UNAVAILABLE: gpg_err_code_t = 820;
-pub const gpg_err_code_t_GPG_ERR_LDAP_UNWILL_TO_PERFORM: gpg_err_code_t = 821;
-pub const gpg_err_code_t_GPG_ERR_LDAP_LOOP_DETECT: gpg_err_code_t = 822;
-pub const gpg_err_code_t_GPG_ERR_LDAP_NAMING_VIOLATION: gpg_err_code_t = 832;
-pub const gpg_err_code_t_GPG_ERR_LDAP_OBJ_CLS_VIOLATION: gpg_err_code_t = 833;
-pub const gpg_err_code_t_GPG_ERR_LDAP_NOT_ALLOW_NONLEAF: gpg_err_code_t = 834;
-pub const gpg_err_code_t_GPG_ERR_LDAP_NOT_ALLOW_ON_RDN: gpg_err_code_t = 835;
-pub const gpg_err_code_t_GPG_ERR_LDAP_ALREADY_EXISTS: gpg_err_code_t = 836;
-pub const gpg_err_code_t_GPG_ERR_LDAP_NO_OBJ_CLASS_MODS: gpg_err_code_t = 837;
-pub const gpg_err_code_t_GPG_ERR_LDAP_RESULTS_TOO_LARGE: gpg_err_code_t = 838;
-pub const gpg_err_code_t_GPG_ERR_LDAP_AFFECTS_MULT_DSAS: gpg_err_code_t = 839;
-pub const gpg_err_code_t_GPG_ERR_LDAP_VLV: gpg_err_code_t = 844;
-pub const gpg_err_code_t_GPG_ERR_LDAP_OTHER: gpg_err_code_t = 848;
-pub const gpg_err_code_t_GPG_ERR_LDAP_CUP_RESOURCE_LIMIT: gpg_err_code_t = 881;
-pub const gpg_err_code_t_GPG_ERR_LDAP_CUP_SEC_VIOLATION: gpg_err_code_t = 882;
-pub const gpg_err_code_t_GPG_ERR_LDAP_CUP_INV_DATA: gpg_err_code_t = 883;
-pub const gpg_err_code_t_GPG_ERR_LDAP_CUP_UNSUP_SCHEME: gpg_err_code_t = 884;
-pub const gpg_err_code_t_GPG_ERR_LDAP_CUP_RELOAD: gpg_err_code_t = 885;
-pub const gpg_err_code_t_GPG_ERR_LDAP_CANCELLED: gpg_err_code_t = 886;
-pub const gpg_err_code_t_GPG_ERR_LDAP_NO_SUCH_OPERATION: gpg_err_code_t = 887;
-pub const gpg_err_code_t_GPG_ERR_LDAP_TOO_LATE: gpg_err_code_t = 888;
-pub const gpg_err_code_t_GPG_ERR_LDAP_CANNOT_CANCEL: gpg_err_code_t = 889;
-pub const gpg_err_code_t_GPG_ERR_LDAP_ASSERTION_FAILED: gpg_err_code_t = 890;
-pub const gpg_err_code_t_GPG_ERR_LDAP_PROX_AUTH_DENIED: gpg_err_code_t = 891;
-pub const gpg_err_code_t_GPG_ERR_USER_1: gpg_err_code_t = 1024;
-pub const gpg_err_code_t_GPG_ERR_USER_2: gpg_err_code_t = 1025;
-pub const gpg_err_code_t_GPG_ERR_USER_3: gpg_err_code_t = 1026;
-pub const gpg_err_code_t_GPG_ERR_USER_4: gpg_err_code_t = 1027;
-pub const gpg_err_code_t_GPG_ERR_USER_5: gpg_err_code_t = 1028;
-pub const gpg_err_code_t_GPG_ERR_USER_6: gpg_err_code_t = 1029;
-pub const gpg_err_code_t_GPG_ERR_USER_7: gpg_err_code_t = 1030;
-pub const gpg_err_code_t_GPG_ERR_USER_8: gpg_err_code_t = 1031;
-pub const gpg_err_code_t_GPG_ERR_USER_9: gpg_err_code_t = 1032;
-pub const gpg_err_code_t_GPG_ERR_USER_10: gpg_err_code_t = 1033;
-pub const gpg_err_code_t_GPG_ERR_USER_11: gpg_err_code_t = 1034;
-pub const gpg_err_code_t_GPG_ERR_USER_12: gpg_err_code_t = 1035;
-pub const gpg_err_code_t_GPG_ERR_USER_13: gpg_err_code_t = 1036;
-pub const gpg_err_code_t_GPG_ERR_USER_14: gpg_err_code_t = 1037;
-pub const gpg_err_code_t_GPG_ERR_USER_15: gpg_err_code_t = 1038;
-pub const gpg_err_code_t_GPG_ERR_USER_16: gpg_err_code_t = 1039;
-pub const gpg_err_code_t_GPG_ERR_SQL_OK: gpg_err_code_t = 1500;
-pub const gpg_err_code_t_GPG_ERR_SQL_ERROR: gpg_err_code_t = 1501;
-pub const gpg_err_code_t_GPG_ERR_SQL_INTERNAL: gpg_err_code_t = 1502;
-pub const gpg_err_code_t_GPG_ERR_SQL_PERM: gpg_err_code_t = 1503;
-pub const gpg_err_code_t_GPG_ERR_SQL_ABORT: gpg_err_code_t = 1504;
-pub const gpg_err_code_t_GPG_ERR_SQL_BUSY: gpg_err_code_t = 1505;
-pub const gpg_err_code_t_GPG_ERR_SQL_LOCKED: gpg_err_code_t = 1506;
-pub const gpg_err_code_t_GPG_ERR_SQL_NOMEM: gpg_err_code_t = 1507;
-pub const gpg_err_code_t_GPG_ERR_SQL_READONLY: gpg_err_code_t = 1508;
-pub const gpg_err_code_t_GPG_ERR_SQL_INTERRUPT: gpg_err_code_t = 1509;
-pub const gpg_err_code_t_GPG_ERR_SQL_IOERR: gpg_err_code_t = 1510;
-pub const gpg_err_code_t_GPG_ERR_SQL_CORRUPT: gpg_err_code_t = 1511;
-pub const gpg_err_code_t_GPG_ERR_SQL_NOTFOUND: gpg_err_code_t = 1512;
-pub const gpg_err_code_t_GPG_ERR_SQL_FULL: gpg_err_code_t = 1513;
-pub const gpg_err_code_t_GPG_ERR_SQL_CANTOPEN: gpg_err_code_t = 1514;
-pub const gpg_err_code_t_GPG_ERR_SQL_PROTOCOL: gpg_err_code_t = 1515;
-pub const gpg_err_code_t_GPG_ERR_SQL_EMPTY: gpg_err_code_t = 1516;
-pub const gpg_err_code_t_GPG_ERR_SQL_SCHEMA: gpg_err_code_t = 1517;
-pub const gpg_err_code_t_GPG_ERR_SQL_TOOBIG: gpg_err_code_t = 1518;
-pub const gpg_err_code_t_GPG_ERR_SQL_CONSTRAINT: gpg_err_code_t = 1519;
-pub const gpg_err_code_t_GPG_ERR_SQL_MISMATCH: gpg_err_code_t = 1520;
-pub const gpg_err_code_t_GPG_ERR_SQL_MISUSE: gpg_err_code_t = 1521;
-pub const gpg_err_code_t_GPG_ERR_SQL_NOLFS: gpg_err_code_t = 1522;
-pub const gpg_err_code_t_GPG_ERR_SQL_AUTH: gpg_err_code_t = 1523;
-pub const gpg_err_code_t_GPG_ERR_SQL_FORMAT: gpg_err_code_t = 1524;
-pub const gpg_err_code_t_GPG_ERR_SQL_RANGE: gpg_err_code_t = 1525;
-pub const gpg_err_code_t_GPG_ERR_SQL_NOTADB: gpg_err_code_t = 1526;
-pub const gpg_err_code_t_GPG_ERR_SQL_NOTICE: gpg_err_code_t = 1527;
-pub const gpg_err_code_t_GPG_ERR_SQL_WARNING: gpg_err_code_t = 1528;
-pub const gpg_err_code_t_GPG_ERR_SQL_ROW: gpg_err_code_t = 1600;
-pub const gpg_err_code_t_GPG_ERR_SQL_DONE: gpg_err_code_t = 1601;
-pub const gpg_err_code_t_GPG_ERR_MISSING_ERRNO: gpg_err_code_t = 16381;
-pub const gpg_err_code_t_GPG_ERR_UNKNOWN_ERRNO: gpg_err_code_t = 16382;
-pub const gpg_err_code_t_GPG_ERR_EOF: gpg_err_code_t = 16383;
-pub const gpg_err_code_t_GPG_ERR_E2BIG: gpg_err_code_t = 32768;
-pub const gpg_err_code_t_GPG_ERR_EACCES: gpg_err_code_t = 32769;
-pub const gpg_err_code_t_GPG_ERR_EADDRINUSE: gpg_err_code_t = 32770;
-pub const gpg_err_code_t_GPG_ERR_EADDRNOTAVAIL: gpg_err_code_t = 32771;
-pub const gpg_err_code_t_GPG_ERR_EADV: gpg_err_code_t = 32772;
-pub const gpg_err_code_t_GPG_ERR_EAFNOSUPPORT: gpg_err_code_t = 32773;
-pub const gpg_err_code_t_GPG_ERR_EAGAIN: gpg_err_code_t = 32774;
-pub const gpg_err_code_t_GPG_ERR_EALREADY: gpg_err_code_t = 32775;
-pub const gpg_err_code_t_GPG_ERR_EAUTH: gpg_err_code_t = 32776;
-pub const gpg_err_code_t_GPG_ERR_EBACKGROUND: gpg_err_code_t = 32777;
-pub const gpg_err_code_t_GPG_ERR_EBADE: gpg_err_code_t = 32778;
-pub const gpg_err_code_t_GPG_ERR_EBADF: gpg_err_code_t = 32779;
-pub const gpg_err_code_t_GPG_ERR_EBADFD: gpg_err_code_t = 32780;
-pub const gpg_err_code_t_GPG_ERR_EBADMSG: gpg_err_code_t = 32781;
-pub const gpg_err_code_t_GPG_ERR_EBADR: gpg_err_code_t = 32782;
-pub const gpg_err_code_t_GPG_ERR_EBADRPC: gpg_err_code_t = 32783;
-pub const gpg_err_code_t_GPG_ERR_EBADRQC: gpg_err_code_t = 32784;
-pub const gpg_err_code_t_GPG_ERR_EBADSLT: gpg_err_code_t = 32785;
-pub const gpg_err_code_t_GPG_ERR_EBFONT: gpg_err_code_t = 32786;
-pub const gpg_err_code_t_GPG_ERR_EBUSY: gpg_err_code_t = 32787;
-pub const gpg_err_code_t_GPG_ERR_ECANCELED: gpg_err_code_t = 32788;
-pub const gpg_err_code_t_GPG_ERR_ECHILD: gpg_err_code_t = 32789;
-pub const gpg_err_code_t_GPG_ERR_ECHRNG: gpg_err_code_t = 32790;
-pub const gpg_err_code_t_GPG_ERR_ECOMM: gpg_err_code_t = 32791;
-pub const gpg_err_code_t_GPG_ERR_ECONNABORTED: gpg_err_code_t = 32792;
-pub const gpg_err_code_t_GPG_ERR_ECONNREFUSED: gpg_err_code_t = 32793;
-pub const gpg_err_code_t_GPG_ERR_ECONNRESET: gpg_err_code_t = 32794;
-pub const gpg_err_code_t_GPG_ERR_ED: gpg_err_code_t = 32795;
-pub const gpg_err_code_t_GPG_ERR_EDEADLK: gpg_err_code_t = 32796;
-pub const gpg_err_code_t_GPG_ERR_EDEADLOCK: gpg_err_code_t = 32797;
-pub const gpg_err_code_t_GPG_ERR_EDESTADDRREQ: gpg_err_code_t = 32798;
-pub const gpg_err_code_t_GPG_ERR_EDIED: gpg_err_code_t = 32799;
-pub const gpg_err_code_t_GPG_ERR_EDOM: gpg_err_code_t = 32800;
-pub const gpg_err_code_t_GPG_ERR_EDOTDOT: gpg_err_code_t = 32801;
-pub const gpg_err_code_t_GPG_ERR_EDQUOT: gpg_err_code_t = 32802;
-pub const gpg_err_code_t_GPG_ERR_EEXIST: gpg_err_code_t = 32803;
-pub const gpg_err_code_t_GPG_ERR_EFAULT: gpg_err_code_t = 32804;
-pub const gpg_err_code_t_GPG_ERR_EFBIG: gpg_err_code_t = 32805;
-pub const gpg_err_code_t_GPG_ERR_EFTYPE: gpg_err_code_t = 32806;
-pub const gpg_err_code_t_GPG_ERR_EGRATUITOUS: gpg_err_code_t = 32807;
-pub const gpg_err_code_t_GPG_ERR_EGREGIOUS: gpg_err_code_t = 32808;
-pub const gpg_err_code_t_GPG_ERR_EHOSTDOWN: gpg_err_code_t = 32809;
-pub const gpg_err_code_t_GPG_ERR_EHOSTUNREACH: gpg_err_code_t = 32810;
-pub const gpg_err_code_t_GPG_ERR_EIDRM: gpg_err_code_t = 32811;
-pub const gpg_err_code_t_GPG_ERR_EIEIO: gpg_err_code_t = 32812;
-pub const gpg_err_code_t_GPG_ERR_EILSEQ: gpg_err_code_t = 32813;
-pub const gpg_err_code_t_GPG_ERR_EINPROGRESS: gpg_err_code_t = 32814;
-pub const gpg_err_code_t_GPG_ERR_EINTR: gpg_err_code_t = 32815;
-pub const gpg_err_code_t_GPG_ERR_EINVAL: gpg_err_code_t = 32816;
-pub const gpg_err_code_t_GPG_ERR_EIO: gpg_err_code_t = 32817;
-pub const gpg_err_code_t_GPG_ERR_EISCONN: gpg_err_code_t = 32818;
-pub const gpg_err_code_t_GPG_ERR_EISDIR: gpg_err_code_t = 32819;
-pub const gpg_err_code_t_GPG_ERR_EISNAM: gpg_err_code_t = 32820;
-pub const gpg_err_code_t_GPG_ERR_EL2HLT: gpg_err_code_t = 32821;
-pub const gpg_err_code_t_GPG_ERR_EL2NSYNC: gpg_err_code_t = 32822;
-pub const gpg_err_code_t_GPG_ERR_EL3HLT: gpg_err_code_t = 32823;
-pub const gpg_err_code_t_GPG_ERR_EL3RST: gpg_err_code_t = 32824;
-pub const gpg_err_code_t_GPG_ERR_ELIBACC: gpg_err_code_t = 32825;
-pub const gpg_err_code_t_GPG_ERR_ELIBBAD: gpg_err_code_t = 32826;
-pub const gpg_err_code_t_GPG_ERR_ELIBEXEC: gpg_err_code_t = 32827;
-pub const gpg_err_code_t_GPG_ERR_ELIBMAX: gpg_err_code_t = 32828;
-pub const gpg_err_code_t_GPG_ERR_ELIBSCN: gpg_err_code_t = 32829;
-pub const gpg_err_code_t_GPG_ERR_ELNRNG: gpg_err_code_t = 32830;
-pub const gpg_err_code_t_GPG_ERR_ELOOP: gpg_err_code_t = 32831;
-pub const gpg_err_code_t_GPG_ERR_EMEDIUMTYPE: gpg_err_code_t = 32832;
-pub const gpg_err_code_t_GPG_ERR_EMFILE: gpg_err_code_t = 32833;
-pub const gpg_err_code_t_GPG_ERR_EMLINK: gpg_err_code_t = 32834;
-pub const gpg_err_code_t_GPG_ERR_EMSGSIZE: gpg_err_code_t = 32835;
-pub const gpg_err_code_t_GPG_ERR_EMULTIHOP: gpg_err_code_t = 32836;
-pub const gpg_err_code_t_GPG_ERR_ENAMETOOLONG: gpg_err_code_t = 32837;
-pub const gpg_err_code_t_GPG_ERR_ENAVAIL: gpg_err_code_t = 32838;
-pub const gpg_err_code_t_GPG_ERR_ENEEDAUTH: gpg_err_code_t = 32839;
-pub const gpg_err_code_t_GPG_ERR_ENETDOWN: gpg_err_code_t = 32840;
-pub const gpg_err_code_t_GPG_ERR_ENETRESET: gpg_err_code_t = 32841;
-pub const gpg_err_code_t_GPG_ERR_ENETUNREACH: gpg_err_code_t = 32842;
-pub const gpg_err_code_t_GPG_ERR_ENFILE: gpg_err_code_t = 32843;
-pub const gpg_err_code_t_GPG_ERR_ENOANO: gpg_err_code_t = 32844;
-pub const gpg_err_code_t_GPG_ERR_ENOBUFS: gpg_err_code_t = 32845;
-pub const gpg_err_code_t_GPG_ERR_ENOCSI: gpg_err_code_t = 32846;
-pub const gpg_err_code_t_GPG_ERR_ENODATA: gpg_err_code_t = 32847;
-pub const gpg_err_code_t_GPG_ERR_ENODEV: gpg_err_code_t = 32848;
-pub const gpg_err_code_t_GPG_ERR_ENOENT: gpg_err_code_t = 32849;
-pub const gpg_err_code_t_GPG_ERR_ENOEXEC: gpg_err_code_t = 32850;
-pub const gpg_err_code_t_GPG_ERR_ENOLCK: gpg_err_code_t = 32851;
-pub const gpg_err_code_t_GPG_ERR_ENOLINK: gpg_err_code_t = 32852;
-pub const gpg_err_code_t_GPG_ERR_ENOMEDIUM: gpg_err_code_t = 32853;
-pub const gpg_err_code_t_GPG_ERR_ENOMEM: gpg_err_code_t = 32854;
-pub const gpg_err_code_t_GPG_ERR_ENOMSG: gpg_err_code_t = 32855;
-pub const gpg_err_code_t_GPG_ERR_ENONET: gpg_err_code_t = 32856;
-pub const gpg_err_code_t_GPG_ERR_ENOPKG: gpg_err_code_t = 32857;
-pub const gpg_err_code_t_GPG_ERR_ENOPROTOOPT: gpg_err_code_t = 32858;
-pub const gpg_err_code_t_GPG_ERR_ENOSPC: gpg_err_code_t = 32859;
-pub const gpg_err_code_t_GPG_ERR_ENOSR: gpg_err_code_t = 32860;
-pub const gpg_err_code_t_GPG_ERR_ENOSTR: gpg_err_code_t = 32861;
-pub const gpg_err_code_t_GPG_ERR_ENOSYS: gpg_err_code_t = 32862;
-pub const gpg_err_code_t_GPG_ERR_ENOTBLK: gpg_err_code_t = 32863;
-pub const gpg_err_code_t_GPG_ERR_ENOTCONN: gpg_err_code_t = 32864;
-pub const gpg_err_code_t_GPG_ERR_ENOTDIR: gpg_err_code_t = 32865;
-pub const gpg_err_code_t_GPG_ERR_ENOTEMPTY: gpg_err_code_t = 32866;
-pub const gpg_err_code_t_GPG_ERR_ENOTNAM: gpg_err_code_t = 32867;
-pub const gpg_err_code_t_GPG_ERR_ENOTSOCK: gpg_err_code_t = 32868;
-pub const gpg_err_code_t_GPG_ERR_ENOTSUP: gpg_err_code_t = 32869;
-pub const gpg_err_code_t_GPG_ERR_ENOTTY: gpg_err_code_t = 32870;
-pub const gpg_err_code_t_GPG_ERR_ENOTUNIQ: gpg_err_code_t = 32871;
-pub const gpg_err_code_t_GPG_ERR_ENXIO: gpg_err_code_t = 32872;
-pub const gpg_err_code_t_GPG_ERR_EOPNOTSUPP: gpg_err_code_t = 32873;
-pub const gpg_err_code_t_GPG_ERR_EOVERFLOW: gpg_err_code_t = 32874;
-pub const gpg_err_code_t_GPG_ERR_EPERM: gpg_err_code_t = 32875;
-pub const gpg_err_code_t_GPG_ERR_EPFNOSUPPORT: gpg_err_code_t = 32876;
-pub const gpg_err_code_t_GPG_ERR_EPIPE: gpg_err_code_t = 32877;
-pub const gpg_err_code_t_GPG_ERR_EPROCLIM: gpg_err_code_t = 32878;
-pub const gpg_err_code_t_GPG_ERR_EPROCUNAVAIL: gpg_err_code_t = 32879;
-pub const gpg_err_code_t_GPG_ERR_EPROGMISMATCH: gpg_err_code_t = 32880;
-pub const gpg_err_code_t_GPG_ERR_EPROGUNAVAIL: gpg_err_code_t = 32881;
-pub const gpg_err_code_t_GPG_ERR_EPROTO: gpg_err_code_t = 32882;
-pub const gpg_err_code_t_GPG_ERR_EPROTONOSUPPORT: gpg_err_code_t = 32883;
-pub const gpg_err_code_t_GPG_ERR_EPROTOTYPE: gpg_err_code_t = 32884;
-pub const gpg_err_code_t_GPG_ERR_ERANGE: gpg_err_code_t = 32885;
-pub const gpg_err_code_t_GPG_ERR_EREMCHG: gpg_err_code_t = 32886;
-pub const gpg_err_code_t_GPG_ERR_EREMOTE: gpg_err_code_t = 32887;
-pub const gpg_err_code_t_GPG_ERR_EREMOTEIO: gpg_err_code_t = 32888;
-pub const gpg_err_code_t_GPG_ERR_ERESTART: gpg_err_code_t = 32889;
-pub const gpg_err_code_t_GPG_ERR_EROFS: gpg_err_code_t = 32890;
-pub const gpg_err_code_t_GPG_ERR_ERPCMISMATCH: gpg_err_code_t = 32891;
-pub const gpg_err_code_t_GPG_ERR_ESHUTDOWN: gpg_err_code_t = 32892;
-pub const gpg_err_code_t_GPG_ERR_ESOCKTNOSUPPORT: gpg_err_code_t = 32893;
-pub const gpg_err_code_t_GPG_ERR_ESPIPE: gpg_err_code_t = 32894;
-pub const gpg_err_code_t_GPG_ERR_ESRCH: gpg_err_code_t = 32895;
-pub const gpg_err_code_t_GPG_ERR_ESRMNT: gpg_err_code_t = 32896;
-pub const gpg_err_code_t_GPG_ERR_ESTALE: gpg_err_code_t = 32897;
-pub const gpg_err_code_t_GPG_ERR_ESTRPIPE: gpg_err_code_t = 32898;
-pub const gpg_err_code_t_GPG_ERR_ETIME: gpg_err_code_t = 32899;
-pub const gpg_err_code_t_GPG_ERR_ETIMEDOUT: gpg_err_code_t = 32900;
-pub const gpg_err_code_t_GPG_ERR_ETOOMANYREFS: gpg_err_code_t = 32901;
-pub const gpg_err_code_t_GPG_ERR_ETXTBSY: gpg_err_code_t = 32902;
-pub const gpg_err_code_t_GPG_ERR_EUCLEAN: gpg_err_code_t = 32903;
-pub const gpg_err_code_t_GPG_ERR_EUNATCH: gpg_err_code_t = 32904;
-pub const gpg_err_code_t_GPG_ERR_EUSERS: gpg_err_code_t = 32905;
-pub const gpg_err_code_t_GPG_ERR_EWOULDBLOCK: gpg_err_code_t = 32906;
-pub const gpg_err_code_t_GPG_ERR_EXDEV: gpg_err_code_t = 32907;
-pub const gpg_err_code_t_GPG_ERR_EXFULL: gpg_err_code_t = 32908;
-pub const gpg_err_code_t_GPG_ERR_CODE_DIM: gpg_err_code_t = 65536;
-pub type gpg_err_code_t = ::std::os::raw::c_uint;
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_UNKNOWN: gpg_err_source_t = gpg_err_source_t(0);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_GCRYPT: gpg_err_source_t = gpg_err_source_t(1);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_GPG: gpg_err_source_t = gpg_err_source_t(2);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_GPGSM: gpg_err_source_t = gpg_err_source_t(3);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_GPGAGENT: gpg_err_source_t = gpg_err_source_t(4);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_PINENTRY: gpg_err_source_t = gpg_err_source_t(5);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_SCD: gpg_err_source_t = gpg_err_source_t(6);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_GPGME: gpg_err_source_t = gpg_err_source_t(7);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_KEYBOX: gpg_err_source_t = gpg_err_source_t(8);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_KSBA: gpg_err_source_t = gpg_err_source_t(9);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_DIRMNGR: gpg_err_source_t = gpg_err_source_t(10);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_GSTI: gpg_err_source_t = gpg_err_source_t(11);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_GPA: gpg_err_source_t = gpg_err_source_t(12);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_KLEO: gpg_err_source_t = gpg_err_source_t(13);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_G13: gpg_err_source_t = gpg_err_source_t(14);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_ASSUAN: gpg_err_source_t = gpg_err_source_t(15);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_TPM2D: gpg_err_source_t = gpg_err_source_t(16);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_TLS: gpg_err_source_t = gpg_err_source_t(17);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_ANY: gpg_err_source_t = gpg_err_source_t(31);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_USER_1: gpg_err_source_t = gpg_err_source_t(32);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_USER_2: gpg_err_source_t = gpg_err_source_t(33);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_USER_3: gpg_err_source_t = gpg_err_source_t(34);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_USER_4: gpg_err_source_t = gpg_err_source_t(35);
+}
+impl gpg_err_source_t {
+    pub const GPG_ERR_SOURCE_DIM: gpg_err_source_t = gpg_err_source_t(128);
+}
+impl ::core::ops::BitOr<gpg_err_source_t> for gpg_err_source_t {
+    type Output = Self;
+    #[inline]
+    fn bitor(self, other: Self) -> Self {
+        gpg_err_source_t(self.0 | other.0)
+    }
+}
+impl ::core::ops::BitOrAssign for gpg_err_source_t {
+    #[inline]
+    fn bitor_assign(&mut self, rhs: gpg_err_source_t) {
+        self.0 |= rhs.0;
+    }
+}
+impl ::core::ops::BitAnd<gpg_err_source_t> for gpg_err_source_t {
+    type Output = Self;
+    #[inline]
+    fn bitand(self, other: Self) -> Self {
+        gpg_err_source_t(self.0 & other.0)
+    }
+}
+impl ::core::ops::BitAndAssign for gpg_err_source_t {
+    #[inline]
+    fn bitand_assign(&mut self, rhs: gpg_err_source_t) {
+        self.0 &= rhs.0;
+    }
+}
+#[repr(transparent)]
+#[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
+pub struct gpg_err_source_t(pub ::std::os::raw::c_uint);
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_ERROR: gpg_err_code_t = gpg_err_code_t(0);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_GENERAL: gpg_err_code_t = gpg_err_code_t(1);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNKNOWN_PACKET: gpg_err_code_t = gpg_err_code_t(2);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNKNOWN_VERSION: gpg_err_code_t = gpg_err_code_t(3);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_PUBKEY_ALGO: gpg_err_code_t = gpg_err_code_t(4);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_DIGEST_ALGO: gpg_err_code_t = gpg_err_code_t(5);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_PUBKEY: gpg_err_code_t = gpg_err_code_t(6);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_SECKEY: gpg_err_code_t = gpg_err_code_t(7);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_SIGNATURE: gpg_err_code_t = gpg_err_code_t(8);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_PUBKEY: gpg_err_code_t = gpg_err_code_t(9);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CHECKSUM: gpg_err_code_t = gpg_err_code_t(10);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_PASSPHRASE: gpg_err_code_t = gpg_err_code_t(11);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CIPHER_ALGO: gpg_err_code_t = gpg_err_code_t(12);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_KEYRING_OPEN: gpg_err_code_t = gpg_err_code_t(13);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_PACKET: gpg_err_code_t = gpg_err_code_t(14);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_ARMOR: gpg_err_code_t = gpg_err_code_t(15);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_USER_ID: gpg_err_code_t = gpg_err_code_t(16);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_SECKEY: gpg_err_code_t = gpg_err_code_t(17);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_WRONG_SECKEY: gpg_err_code_t = gpg_err_code_t(18);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_KEY: gpg_err_code_t = gpg_err_code_t(19);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_COMPR_ALGO: gpg_err_code_t = gpg_err_code_t(20);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_PRIME: gpg_err_code_t = gpg_err_code_t(21);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_ENCODING_METHOD: gpg_err_code_t = gpg_err_code_t(22);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_ENCRYPTION_SCHEME: gpg_err_code_t = gpg_err_code_t(23);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_SIGNATURE_SCHEME: gpg_err_code_t = gpg_err_code_t(24);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_ATTR: gpg_err_code_t = gpg_err_code_t(25);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_VALUE: gpg_err_code_t = gpg_err_code_t(26);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NOT_FOUND: gpg_err_code_t = gpg_err_code_t(27);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_VALUE_NOT_FOUND: gpg_err_code_t = gpg_err_code_t(28);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SYNTAX: gpg_err_code_t = gpg_err_code_t(29);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_MPI: gpg_err_code_t = gpg_err_code_t(30);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_PASSPHRASE: gpg_err_code_t = gpg_err_code_t(31);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SIG_CLASS: gpg_err_code_t = gpg_err_code_t(32);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_RESOURCE_LIMIT: gpg_err_code_t = gpg_err_code_t(33);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_KEYRING: gpg_err_code_t = gpg_err_code_t(34);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_TRUSTDB: gpg_err_code_t = gpg_err_code_t(35);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_CERT: gpg_err_code_t = gpg_err_code_t(36);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_USER_ID: gpg_err_code_t = gpg_err_code_t(37);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNEXPECTED: gpg_err_code_t = gpg_err_code_t(38);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_TIME_CONFLICT: gpg_err_code_t = gpg_err_code_t(39);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_KEYSERVER: gpg_err_code_t = gpg_err_code_t(40);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_WRONG_PUBKEY_ALGO: gpg_err_code_t = gpg_err_code_t(41);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_TRIBUTE_TO_D_A: gpg_err_code_t = gpg_err_code_t(42);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_WEAK_KEY: gpg_err_code_t = gpg_err_code_t(43);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_KEYLEN: gpg_err_code_t = gpg_err_code_t(44);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_ARG: gpg_err_code_t = gpg_err_code_t(45);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_URI: gpg_err_code_t = gpg_err_code_t(46);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_URI: gpg_err_code_t = gpg_err_code_t(47);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NETWORK: gpg_err_code_t = gpg_err_code_t(48);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNKNOWN_HOST: gpg_err_code_t = gpg_err_code_t(49);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SELFTEST_FAILED: gpg_err_code_t = gpg_err_code_t(50);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NOT_ENCRYPTED: gpg_err_code_t = gpg_err_code_t(51);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NOT_PROCESSED: gpg_err_code_t = gpg_err_code_t(52);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNUSABLE_PUBKEY: gpg_err_code_t = gpg_err_code_t(53);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNUSABLE_SECKEY: gpg_err_code_t = gpg_err_code_t(54);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_VALUE: gpg_err_code_t = gpg_err_code_t(55);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_CERT_CHAIN: gpg_err_code_t = gpg_err_code_t(56);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_MISSING_CERT: gpg_err_code_t = gpg_err_code_t(57);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_DATA: gpg_err_code_t = gpg_err_code_t(58);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BUG: gpg_err_code_t = gpg_err_code_t(59);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NOT_SUPPORTED: gpg_err_code_t = gpg_err_code_t(60);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_OP: gpg_err_code_t = gpg_err_code_t(61);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_TIMEOUT: gpg_err_code_t = gpg_err_code_t(62);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INTERNAL: gpg_err_code_t = gpg_err_code_t(63);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EOF_GCRYPT: gpg_err_code_t = gpg_err_code_t(64);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_OBJ: gpg_err_code_t = gpg_err_code_t(65);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_TOO_SHORT: gpg_err_code_t = gpg_err_code_t(66);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_TOO_LARGE: gpg_err_code_t = gpg_err_code_t(67);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_OBJ: gpg_err_code_t = gpg_err_code_t(68);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NOT_IMPLEMENTED: gpg_err_code_t = gpg_err_code_t(69);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CONFLICT: gpg_err_code_t = gpg_err_code_t(70);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_CIPHER_MODE: gpg_err_code_t = gpg_err_code_t(71);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_FLAG: gpg_err_code_t = gpg_err_code_t(72);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_HANDLE: gpg_err_code_t = gpg_err_code_t(73);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_TRUNCATED: gpg_err_code_t = gpg_err_code_t(74);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INCOMPLETE_LINE: gpg_err_code_t = gpg_err_code_t(75);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_RESPONSE: gpg_err_code_t = gpg_err_code_t(76);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_AGENT: gpg_err_code_t = gpg_err_code_t(77);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_AGENT: gpg_err_code_t = gpg_err_code_t(78);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_DATA: gpg_err_code_t = gpg_err_code_t(79);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASSUAN_SERVER_FAULT: gpg_err_code_t = gpg_err_code_t(80);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASSUAN: gpg_err_code_t = gpg_err_code_t(81);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_SESSION_KEY: gpg_err_code_t = gpg_err_code_t(82);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_SEXP: gpg_err_code_t = gpg_err_code_t(83);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNSUPPORTED_ALGORITHM: gpg_err_code_t = gpg_err_code_t(84);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_PIN_ENTRY: gpg_err_code_t = gpg_err_code_t(85);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_PIN_ENTRY: gpg_err_code_t = gpg_err_code_t(86);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_PIN: gpg_err_code_t = gpg_err_code_t(87);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_NAME: gpg_err_code_t = gpg_err_code_t(88);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_DATA: gpg_err_code_t = gpg_err_code_t(89);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_PARAMETER: gpg_err_code_t = gpg_err_code_t(90);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_WRONG_CARD: gpg_err_code_t = gpg_err_code_t(91);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_DIRMNGR: gpg_err_code_t = gpg_err_code_t(92);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_DIRMNGR: gpg_err_code_t = gpg_err_code_t(93);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CERT_REVOKED: gpg_err_code_t = gpg_err_code_t(94);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_CRL_KNOWN: gpg_err_code_t = gpg_err_code_t(95);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CRL_TOO_OLD: gpg_err_code_t = gpg_err_code_t(96);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LINE_TOO_LONG: gpg_err_code_t = gpg_err_code_t(97);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NOT_TRUSTED: gpg_err_code_t = gpg_err_code_t(98);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CANCELED: gpg_err_code_t = gpg_err_code_t(99);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_CA_CERT: gpg_err_code_t = gpg_err_code_t(100);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CERT_EXPIRED: gpg_err_code_t = gpg_err_code_t(101);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CERT_TOO_YOUNG: gpg_err_code_t = gpg_err_code_t(102);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNSUPPORTED_CERT: gpg_err_code_t = gpg_err_code_t(103);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNKNOWN_SEXP: gpg_err_code_t = gpg_err_code_t(104);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNSUPPORTED_PROTECTION: gpg_err_code_t = gpg_err_code_t(105);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CORRUPTED_PROTECTION: gpg_err_code_t = gpg_err_code_t(106);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_AMBIGUOUS_NAME: gpg_err_code_t = gpg_err_code_t(107);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CARD: gpg_err_code_t = gpg_err_code_t(108);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CARD_RESET: gpg_err_code_t = gpg_err_code_t(109);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CARD_REMOVED: gpg_err_code_t = gpg_err_code_t(110);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_CARD: gpg_err_code_t = gpg_err_code_t(111);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CARD_NOT_PRESENT: gpg_err_code_t = gpg_err_code_t(112);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_PKCS15_APP: gpg_err_code_t = gpg_err_code_t(113);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NOT_CONFIRMED: gpg_err_code_t = gpg_err_code_t(114);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CONFIGURATION: gpg_err_code_t = gpg_err_code_t(115);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_POLICY_MATCH: gpg_err_code_t = gpg_err_code_t(116);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_INDEX: gpg_err_code_t = gpg_err_code_t(117);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_ID: gpg_err_code_t = gpg_err_code_t(118);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_SCDAEMON: gpg_err_code_t = gpg_err_code_t(119);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SCDAEMON: gpg_err_code_t = gpg_err_code_t(120);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNSUPPORTED_PROTOCOL: gpg_err_code_t = gpg_err_code_t(121);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_PIN_METHOD: gpg_err_code_t = gpg_err_code_t(122);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CARD_NOT_INITIALIZED: gpg_err_code_t = gpg_err_code_t(123);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNSUPPORTED_OPERATION: gpg_err_code_t = gpg_err_code_t(124);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_WRONG_KEY_USAGE: gpg_err_code_t = gpg_err_code_t(125);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NOTHING_FOUND: gpg_err_code_t = gpg_err_code_t(126);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_WRONG_BLOB_TYPE: gpg_err_code_t = gpg_err_code_t(127);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_MISSING_VALUE: gpg_err_code_t = gpg_err_code_t(128);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_HARDWARE: gpg_err_code_t = gpg_err_code_t(129);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_PIN_BLOCKED: gpg_err_code_t = gpg_err_code_t(130);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_USE_CONDITIONS: gpg_err_code_t = gpg_err_code_t(131);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_PIN_NOT_SYNCED: gpg_err_code_t = gpg_err_code_t(132);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_CRL: gpg_err_code_t = gpg_err_code_t(133);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_BER: gpg_err_code_t = gpg_err_code_t(134);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_BER: gpg_err_code_t = gpg_err_code_t(135);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ELEMENT_NOT_FOUND: gpg_err_code_t = gpg_err_code_t(136);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_IDENTIFIER_NOT_FOUND: gpg_err_code_t = gpg_err_code_t(137);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_TAG: gpg_err_code_t = gpg_err_code_t(138);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_LENGTH: gpg_err_code_t = gpg_err_code_t(139);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_KEYINFO: gpg_err_code_t = gpg_err_code_t(140);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNEXPECTED_TAG: gpg_err_code_t = gpg_err_code_t(141);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NOT_DER_ENCODED: gpg_err_code_t = gpg_err_code_t(142);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_CMS_OBJ: gpg_err_code_t = gpg_err_code_t(143);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_CMS_OBJ: gpg_err_code_t = gpg_err_code_t(144);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNKNOWN_CMS_OBJ: gpg_err_code_t = gpg_err_code_t(145);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNSUPPORTED_CMS_OBJ: gpg_err_code_t = gpg_err_code_t(146);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNSUPPORTED_ENCODING: gpg_err_code_t = gpg_err_code_t(147);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNSUPPORTED_CMS_VERSION: gpg_err_code_t = gpg_err_code_t(148);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNKNOWN_ALGORITHM: gpg_err_code_t = gpg_err_code_t(149);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_ENGINE: gpg_err_code_t = gpg_err_code_t(150);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_PUBKEY_NOT_TRUSTED: gpg_err_code_t = gpg_err_code_t(151);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_DECRYPT_FAILED: gpg_err_code_t = gpg_err_code_t(152);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_KEY_EXPIRED: gpg_err_code_t = gpg_err_code_t(153);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SIG_EXPIRED: gpg_err_code_t = gpg_err_code_t(154);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENCODING_PROBLEM: gpg_err_code_t = gpg_err_code_t(155);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_STATE: gpg_err_code_t = gpg_err_code_t(156);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_DUP_VALUE: gpg_err_code_t = gpg_err_code_t(157);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_MISSING_ACTION: gpg_err_code_t = gpg_err_code_t(158);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_MODULE_NOT_FOUND: gpg_err_code_t = gpg_err_code_t(159);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_OID_STRING: gpg_err_code_t = gpg_err_code_t(160);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_TIME: gpg_err_code_t = gpg_err_code_t(161);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_CRL_OBJ: gpg_err_code_t = gpg_err_code_t(162);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNSUPPORTED_CRL_VERSION: gpg_err_code_t = gpg_err_code_t(163);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_CERT_OBJ: gpg_err_code_t = gpg_err_code_t(164);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNKNOWN_NAME: gpg_err_code_t = gpg_err_code_t(165);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LOCALE_PROBLEM: gpg_err_code_t = gpg_err_code_t(166);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NOT_LOCKED: gpg_err_code_t = gpg_err_code_t(167);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_PROTOCOL_VIOLATION: gpg_err_code_t = gpg_err_code_t(168);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_MAC: gpg_err_code_t = gpg_err_code_t(169);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_REQUEST: gpg_err_code_t = gpg_err_code_t(170);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNKNOWN_EXTN: gpg_err_code_t = gpg_err_code_t(171);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNKNOWN_CRIT_EXTN: gpg_err_code_t = gpg_err_code_t(172);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LOCKED: gpg_err_code_t = gpg_err_code_t(173);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNKNOWN_OPTION: gpg_err_code_t = gpg_err_code_t(174);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNKNOWN_COMMAND: gpg_err_code_t = gpg_err_code_t(175);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NOT_OPERATIONAL: gpg_err_code_t = gpg_err_code_t(176);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_PASSPHRASE: gpg_err_code_t = gpg_err_code_t(177);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_PIN: gpg_err_code_t = gpg_err_code_t(178);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NOT_ENABLED: gpg_err_code_t = gpg_err_code_t(179);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_ENGINE: gpg_err_code_t = gpg_err_code_t(180);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_MISSING_KEY: gpg_err_code_t = gpg_err_code_t(181);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_TOO_MANY: gpg_err_code_t = gpg_err_code_t(182);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LIMIT_REACHED: gpg_err_code_t = gpg_err_code_t(183);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NOT_INITIALIZED: gpg_err_code_t = gpg_err_code_t(184);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_MISSING_ISSUER_CERT: gpg_err_code_t = gpg_err_code_t(185);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_KEYSERVER: gpg_err_code_t = gpg_err_code_t(186);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_CURVE: gpg_err_code_t = gpg_err_code_t(187);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNKNOWN_CURVE: gpg_err_code_t = gpg_err_code_t(188);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_DUP_KEY: gpg_err_code_t = gpg_err_code_t(189);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_AMBIGUOUS: gpg_err_code_t = gpg_err_code_t(190);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_CRYPT_CTX: gpg_err_code_t = gpg_err_code_t(191);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_WRONG_CRYPT_CTX: gpg_err_code_t = gpg_err_code_t(192);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_CRYPT_CTX: gpg_err_code_t = gpg_err_code_t(193);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CRYPT_CTX_CONFLICT: gpg_err_code_t = gpg_err_code_t(194);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BROKEN_PUBKEY: gpg_err_code_t = gpg_err_code_t(195);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BROKEN_SECKEY: gpg_err_code_t = gpg_err_code_t(196);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_MAC_ALGO: gpg_err_code_t = gpg_err_code_t(197);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_FULLY_CANCELED: gpg_err_code_t = gpg_err_code_t(198);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNFINISHED: gpg_err_code_t = gpg_err_code_t(199);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BUFFER_TOO_SHORT: gpg_err_code_t = gpg_err_code_t(200);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SEXP_INV_LEN_SPEC: gpg_err_code_t = gpg_err_code_t(201);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SEXP_STRING_TOO_LONG: gpg_err_code_t = gpg_err_code_t(202);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SEXP_UNMATCHED_PAREN: gpg_err_code_t = gpg_err_code_t(203);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SEXP_NOT_CANONICAL: gpg_err_code_t = gpg_err_code_t(204);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SEXP_BAD_CHARACTER: gpg_err_code_t = gpg_err_code_t(205);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SEXP_BAD_QUOTATION: gpg_err_code_t = gpg_err_code_t(206);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SEXP_ZERO_PREFIX: gpg_err_code_t = gpg_err_code_t(207);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SEXP_NESTED_DH: gpg_err_code_t = gpg_err_code_t(208);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SEXP_UNMATCHED_DH: gpg_err_code_t = gpg_err_code_t(209);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SEXP_UNEXPECTED_PUNC: gpg_err_code_t = gpg_err_code_t(210);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SEXP_BAD_HEX_CHAR: gpg_err_code_t = gpg_err_code_t(211);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SEXP_ODD_HEX_NUMBERS: gpg_err_code_t = gpg_err_code_t(212);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SEXP_BAD_OCT_CHAR: gpg_err_code_t = gpg_err_code_t(213);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SUBKEYS_EXP_OR_REV: gpg_err_code_t = gpg_err_code_t(217);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_DB_CORRUPTED: gpg_err_code_t = gpg_err_code_t(218);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SERVER_FAILED: gpg_err_code_t = gpg_err_code_t(219);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_NAME: gpg_err_code_t = gpg_err_code_t(220);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_KEY: gpg_err_code_t = gpg_err_code_t(221);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LEGACY_KEY: gpg_err_code_t = gpg_err_code_t(222);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_REQUEST_TOO_SHORT: gpg_err_code_t = gpg_err_code_t(223);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_REQUEST_TOO_LONG: gpg_err_code_t = gpg_err_code_t(224);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_OBJ_TERM_STATE: gpg_err_code_t = gpg_err_code_t(225);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_CERT_CHAIN: gpg_err_code_t = gpg_err_code_t(226);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CERT_TOO_LARGE: gpg_err_code_t = gpg_err_code_t(227);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_RECORD: gpg_err_code_t = gpg_err_code_t(228);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_MAC: gpg_err_code_t = gpg_err_code_t(229);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNEXPECTED_MSG: gpg_err_code_t = gpg_err_code_t(230);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_COMPR_FAILED: gpg_err_code_t = gpg_err_code_t(231);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_WOULD_WRAP: gpg_err_code_t = gpg_err_code_t(232);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_FATAL_ALERT: gpg_err_code_t = gpg_err_code_t(233);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_CIPHER: gpg_err_code_t = gpg_err_code_t(234);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_MISSING_CLIENT_CERT: gpg_err_code_t = gpg_err_code_t(235);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CLOSE_NOTIFY: gpg_err_code_t = gpg_err_code_t(236);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_TICKET_EXPIRED: gpg_err_code_t = gpg_err_code_t(237);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_TICKET: gpg_err_code_t = gpg_err_code_t(238);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNKNOWN_IDENTITY: gpg_err_code_t = gpg_err_code_t(239);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_HS_CERT: gpg_err_code_t = gpg_err_code_t(240);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_HS_CERT_REQ: gpg_err_code_t = gpg_err_code_t(241);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_HS_CERT_VER: gpg_err_code_t = gpg_err_code_t(242);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_HS_CHANGE_CIPHER: gpg_err_code_t = gpg_err_code_t(243);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_HS_CLIENT_HELLO: gpg_err_code_t = gpg_err_code_t(244);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_HS_SERVER_HELLO: gpg_err_code_t = gpg_err_code_t(245);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_HS_SERVER_HELLO_DONE: gpg_err_code_t = gpg_err_code_t(246);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_HS_FINISHED: gpg_err_code_t = gpg_err_code_t(247);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_HS_SERVER_KEX: gpg_err_code_t = gpg_err_code_t(248);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_HS_CLIENT_KEX: gpg_err_code_t = gpg_err_code_t(249);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BOGUS_STRING: gpg_err_code_t = gpg_err_code_t(250);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_FORBIDDEN: gpg_err_code_t = gpg_err_code_t(251);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_KEY_DISABLED: gpg_err_code_t = gpg_err_code_t(252);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_KEY_ON_CARD: gpg_err_code_t = gpg_err_code_t(253);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_LOCK_OBJ: gpg_err_code_t = gpg_err_code_t(254);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_TRUE: gpg_err_code_t = gpg_err_code_t(255);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_FALSE: gpg_err_code_t = gpg_err_code_t(256);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_GENERAL: gpg_err_code_t = gpg_err_code_t(257);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_ACCEPT_FAILED: gpg_err_code_t = gpg_err_code_t(258);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_CONNECT_FAILED: gpg_err_code_t = gpg_err_code_t(259);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_INV_RESPONSE: gpg_err_code_t = gpg_err_code_t(260);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_INV_VALUE: gpg_err_code_t = gpg_err_code_t(261);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_INCOMPLETE_LINE: gpg_err_code_t = gpg_err_code_t(262);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_LINE_TOO_LONG: gpg_err_code_t = gpg_err_code_t(263);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_NESTED_COMMANDS: gpg_err_code_t = gpg_err_code_t(264);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_NO_DATA_CB: gpg_err_code_t = gpg_err_code_t(265);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_NO_INQUIRE_CB: gpg_err_code_t = gpg_err_code_t(266);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_NOT_A_SERVER: gpg_err_code_t = gpg_err_code_t(267);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_NOT_A_CLIENT: gpg_err_code_t = gpg_err_code_t(268);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_SERVER_START: gpg_err_code_t = gpg_err_code_t(269);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_READ_ERROR: gpg_err_code_t = gpg_err_code_t(270);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_WRITE_ERROR: gpg_err_code_t = gpg_err_code_t(271);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_TOO_MUCH_DATA: gpg_err_code_t = gpg_err_code_t(273);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_UNEXPECTED_CMD: gpg_err_code_t = gpg_err_code_t(274);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_UNKNOWN_CMD: gpg_err_code_t = gpg_err_code_t(275);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_SYNTAX: gpg_err_code_t = gpg_err_code_t(276);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_CANCELED: gpg_err_code_t = gpg_err_code_t(277);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_NO_INPUT: gpg_err_code_t = gpg_err_code_t(278);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_NO_OUTPUT: gpg_err_code_t = gpg_err_code_t(279);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_PARAMETER: gpg_err_code_t = gpg_err_code_t(280);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ASS_UNKNOWN_INQUIRE: gpg_err_code_t = gpg_err_code_t(281);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENGINE_TOO_OLD: gpg_err_code_t = gpg_err_code_t(300);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_WINDOW_TOO_SMALL: gpg_err_code_t = gpg_err_code_t(301);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_WINDOW_TOO_LARGE: gpg_err_code_t = gpg_err_code_t(302);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_MISSING_ENVVAR: gpg_err_code_t = gpg_err_code_t(303);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_USER_ID_EXISTS: gpg_err_code_t = gpg_err_code_t(304);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NAME_EXISTS: gpg_err_code_t = gpg_err_code_t(305);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_DUP_NAME: gpg_err_code_t = gpg_err_code_t(306);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_TOO_YOUNG: gpg_err_code_t = gpg_err_code_t(307);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_TOO_OLD: gpg_err_code_t = gpg_err_code_t(308);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNKNOWN_FLAG: gpg_err_code_t = gpg_err_code_t(309);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_INV_ORDER: gpg_err_code_t = gpg_err_code_t(310);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ALREADY_FETCHED: gpg_err_code_t = gpg_err_code_t(311);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_TRY_LATER: gpg_err_code_t = gpg_err_code_t(312);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_WRONG_NAME: gpg_err_code_t = gpg_err_code_t(313);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_AUTH: gpg_err_code_t = gpg_err_code_t(314);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_BAD_AUTH: gpg_err_code_t = gpg_err_code_t(315);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_KEYBOXD: gpg_err_code_t = gpg_err_code_t(316);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_KEYBOXD: gpg_err_code_t = gpg_err_code_t(317);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_NO_SERVICE: gpg_err_code_t = gpg_err_code_t(318);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SERVICE: gpg_err_code_t = gpg_err_code_t(319);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SYSTEM_BUG: gpg_err_code_t = gpg_err_code_t(666);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_DNS_UNKNOWN: gpg_err_code_t = gpg_err_code_t(711);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_DNS_SECTION: gpg_err_code_t = gpg_err_code_t(712);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_DNS_ADDRESS: gpg_err_code_t = gpg_err_code_t(713);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_DNS_NO_QUERY: gpg_err_code_t = gpg_err_code_t(714);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_DNS_NO_ANSWER: gpg_err_code_t = gpg_err_code_t(715);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_DNS_CLOSED: gpg_err_code_t = gpg_err_code_t(716);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_DNS_VERIFY: gpg_err_code_t = gpg_err_code_t(717);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_DNS_TIMEOUT: gpg_err_code_t = gpg_err_code_t(718);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_GENERAL: gpg_err_code_t = gpg_err_code_t(721);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_ATTR_GENERAL: gpg_err_code_t = gpg_err_code_t(722);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_NAME_GENERAL: gpg_err_code_t = gpg_err_code_t(723);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_SECURITY_GENERAL: gpg_err_code_t = gpg_err_code_t(724);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_SERVICE_GENERAL: gpg_err_code_t = gpg_err_code_t(725);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_UPDATE_GENERAL: gpg_err_code_t = gpg_err_code_t(726);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_E_GENERAL: gpg_err_code_t = gpg_err_code_t(727);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_X_GENERAL: gpg_err_code_t = gpg_err_code_t(728);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_OTHER_GENERAL: gpg_err_code_t = gpg_err_code_t(729);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_X_CONNECTING: gpg_err_code_t = gpg_err_code_t(750);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_REFERRAL_LIMIT: gpg_err_code_t = gpg_err_code_t(751);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_CLIENT_LOOP: gpg_err_code_t = gpg_err_code_t(752);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_NO_RESULTS: gpg_err_code_t = gpg_err_code_t(754);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_CONTROL_NOT_FOUND: gpg_err_code_t = gpg_err_code_t(755);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_NOT_SUPPORTED: gpg_err_code_t = gpg_err_code_t(756);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_CONNECT: gpg_err_code_t = gpg_err_code_t(757);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_NO_MEMORY: gpg_err_code_t = gpg_err_code_t(758);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_PARAM: gpg_err_code_t = gpg_err_code_t(759);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_USER_CANCELLED: gpg_err_code_t = gpg_err_code_t(760);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_FILTER: gpg_err_code_t = gpg_err_code_t(761);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_AUTH_UNKNOWN: gpg_err_code_t = gpg_err_code_t(762);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_TIMEOUT: gpg_err_code_t = gpg_err_code_t(763);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_DECODING: gpg_err_code_t = gpg_err_code_t(764);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_ENCODING: gpg_err_code_t = gpg_err_code_t(765);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_LOCAL: gpg_err_code_t = gpg_err_code_t(766);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_SERVER_DOWN: gpg_err_code_t = gpg_err_code_t(767);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_SUCCESS: gpg_err_code_t = gpg_err_code_t(768);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_OPERATIONS: gpg_err_code_t = gpg_err_code_t(769);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_PROTOCOL: gpg_err_code_t = gpg_err_code_t(770);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_TIMELIMIT: gpg_err_code_t = gpg_err_code_t(771);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_SIZELIMIT: gpg_err_code_t = gpg_err_code_t(772);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_COMPARE_FALSE: gpg_err_code_t = gpg_err_code_t(773);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_COMPARE_TRUE: gpg_err_code_t = gpg_err_code_t(774);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_UNSUPPORTED_AUTH: gpg_err_code_t = gpg_err_code_t(775);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_STRONG_AUTH_RQRD: gpg_err_code_t = gpg_err_code_t(776);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_PARTIAL_RESULTS: gpg_err_code_t = gpg_err_code_t(777);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_REFERRAL: gpg_err_code_t = gpg_err_code_t(778);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_ADMINLIMIT: gpg_err_code_t = gpg_err_code_t(779);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_UNAVAIL_CRIT_EXTN: gpg_err_code_t = gpg_err_code_t(780);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_CONFIDENT_RQRD: gpg_err_code_t = gpg_err_code_t(781);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_SASL_BIND_INPROG: gpg_err_code_t = gpg_err_code_t(782);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_NO_SUCH_ATTRIBUTE: gpg_err_code_t = gpg_err_code_t(784);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_UNDEFINED_TYPE: gpg_err_code_t = gpg_err_code_t(785);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_BAD_MATCHING: gpg_err_code_t = gpg_err_code_t(786);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_CONST_VIOLATION: gpg_err_code_t = gpg_err_code_t(787);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_TYPE_VALUE_EXISTS: gpg_err_code_t = gpg_err_code_t(788);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_INV_SYNTAX: gpg_err_code_t = gpg_err_code_t(789);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_NO_SUCH_OBJ: gpg_err_code_t = gpg_err_code_t(800);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_ALIAS_PROBLEM: gpg_err_code_t = gpg_err_code_t(801);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_INV_DN_SYNTAX: gpg_err_code_t = gpg_err_code_t(802);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_IS_LEAF: gpg_err_code_t = gpg_err_code_t(803);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_ALIAS_DEREF: gpg_err_code_t = gpg_err_code_t(804);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_X_PROXY_AUTH_FAIL: gpg_err_code_t = gpg_err_code_t(815);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_BAD_AUTH: gpg_err_code_t = gpg_err_code_t(816);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_INV_CREDENTIALS: gpg_err_code_t = gpg_err_code_t(817);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_INSUFFICIENT_ACC: gpg_err_code_t = gpg_err_code_t(818);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_BUSY: gpg_err_code_t = gpg_err_code_t(819);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_UNAVAILABLE: gpg_err_code_t = gpg_err_code_t(820);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_UNWILL_TO_PERFORM: gpg_err_code_t = gpg_err_code_t(821);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_LOOP_DETECT: gpg_err_code_t = gpg_err_code_t(822);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_NAMING_VIOLATION: gpg_err_code_t = gpg_err_code_t(832);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_OBJ_CLS_VIOLATION: gpg_err_code_t = gpg_err_code_t(833);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_NOT_ALLOW_NONLEAF: gpg_err_code_t = gpg_err_code_t(834);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_NOT_ALLOW_ON_RDN: gpg_err_code_t = gpg_err_code_t(835);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_ALREADY_EXISTS: gpg_err_code_t = gpg_err_code_t(836);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_NO_OBJ_CLASS_MODS: gpg_err_code_t = gpg_err_code_t(837);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_RESULTS_TOO_LARGE: gpg_err_code_t = gpg_err_code_t(838);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_AFFECTS_MULT_DSAS: gpg_err_code_t = gpg_err_code_t(839);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_VLV: gpg_err_code_t = gpg_err_code_t(844);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_OTHER: gpg_err_code_t = gpg_err_code_t(848);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_CUP_RESOURCE_LIMIT: gpg_err_code_t = gpg_err_code_t(881);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_CUP_SEC_VIOLATION: gpg_err_code_t = gpg_err_code_t(882);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_CUP_INV_DATA: gpg_err_code_t = gpg_err_code_t(883);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_CUP_UNSUP_SCHEME: gpg_err_code_t = gpg_err_code_t(884);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_CUP_RELOAD: gpg_err_code_t = gpg_err_code_t(885);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_CANCELLED: gpg_err_code_t = gpg_err_code_t(886);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_NO_SUCH_OPERATION: gpg_err_code_t = gpg_err_code_t(887);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_TOO_LATE: gpg_err_code_t = gpg_err_code_t(888);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_CANNOT_CANCEL: gpg_err_code_t = gpg_err_code_t(889);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_ASSERTION_FAILED: gpg_err_code_t = gpg_err_code_t(890);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_LDAP_PROX_AUTH_DENIED: gpg_err_code_t = gpg_err_code_t(891);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_USER_1: gpg_err_code_t = gpg_err_code_t(1024);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_USER_2: gpg_err_code_t = gpg_err_code_t(1025);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_USER_3: gpg_err_code_t = gpg_err_code_t(1026);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_USER_4: gpg_err_code_t = gpg_err_code_t(1027);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_USER_5: gpg_err_code_t = gpg_err_code_t(1028);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_USER_6: gpg_err_code_t = gpg_err_code_t(1029);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_USER_7: gpg_err_code_t = gpg_err_code_t(1030);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_USER_8: gpg_err_code_t = gpg_err_code_t(1031);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_USER_9: gpg_err_code_t = gpg_err_code_t(1032);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_USER_10: gpg_err_code_t = gpg_err_code_t(1033);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_USER_11: gpg_err_code_t = gpg_err_code_t(1034);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_USER_12: gpg_err_code_t = gpg_err_code_t(1035);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_USER_13: gpg_err_code_t = gpg_err_code_t(1036);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_USER_14: gpg_err_code_t = gpg_err_code_t(1037);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_USER_15: gpg_err_code_t = gpg_err_code_t(1038);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_USER_16: gpg_err_code_t = gpg_err_code_t(1039);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_OK: gpg_err_code_t = gpg_err_code_t(1500);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_ERROR: gpg_err_code_t = gpg_err_code_t(1501);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_INTERNAL: gpg_err_code_t = gpg_err_code_t(1502);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_PERM: gpg_err_code_t = gpg_err_code_t(1503);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_ABORT: gpg_err_code_t = gpg_err_code_t(1504);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_BUSY: gpg_err_code_t = gpg_err_code_t(1505);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_LOCKED: gpg_err_code_t = gpg_err_code_t(1506);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_NOMEM: gpg_err_code_t = gpg_err_code_t(1507);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_READONLY: gpg_err_code_t = gpg_err_code_t(1508);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_INTERRUPT: gpg_err_code_t = gpg_err_code_t(1509);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_IOERR: gpg_err_code_t = gpg_err_code_t(1510);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_CORRUPT: gpg_err_code_t = gpg_err_code_t(1511);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_NOTFOUND: gpg_err_code_t = gpg_err_code_t(1512);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_FULL: gpg_err_code_t = gpg_err_code_t(1513);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_CANTOPEN: gpg_err_code_t = gpg_err_code_t(1514);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_PROTOCOL: gpg_err_code_t = gpg_err_code_t(1515);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_EMPTY: gpg_err_code_t = gpg_err_code_t(1516);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_SCHEMA: gpg_err_code_t = gpg_err_code_t(1517);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_TOOBIG: gpg_err_code_t = gpg_err_code_t(1518);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_CONSTRAINT: gpg_err_code_t = gpg_err_code_t(1519);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_MISMATCH: gpg_err_code_t = gpg_err_code_t(1520);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_MISUSE: gpg_err_code_t = gpg_err_code_t(1521);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_NOLFS: gpg_err_code_t = gpg_err_code_t(1522);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_AUTH: gpg_err_code_t = gpg_err_code_t(1523);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_FORMAT: gpg_err_code_t = gpg_err_code_t(1524);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_RANGE: gpg_err_code_t = gpg_err_code_t(1525);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_NOTADB: gpg_err_code_t = gpg_err_code_t(1526);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_NOTICE: gpg_err_code_t = gpg_err_code_t(1527);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_WARNING: gpg_err_code_t = gpg_err_code_t(1528);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_ROW: gpg_err_code_t = gpg_err_code_t(1600);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_SQL_DONE: gpg_err_code_t = gpg_err_code_t(1601);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_MISSING_ERRNO: gpg_err_code_t = gpg_err_code_t(16381);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_UNKNOWN_ERRNO: gpg_err_code_t = gpg_err_code_t(16382);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EOF: gpg_err_code_t = gpg_err_code_t(16383);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_E2BIG: gpg_err_code_t = gpg_err_code_t(32768);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EACCES: gpg_err_code_t = gpg_err_code_t(32769);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EADDRINUSE: gpg_err_code_t = gpg_err_code_t(32770);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EADDRNOTAVAIL: gpg_err_code_t = gpg_err_code_t(32771);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EADV: gpg_err_code_t = gpg_err_code_t(32772);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EAFNOSUPPORT: gpg_err_code_t = gpg_err_code_t(32773);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EAGAIN: gpg_err_code_t = gpg_err_code_t(32774);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EALREADY: gpg_err_code_t = gpg_err_code_t(32775);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EAUTH: gpg_err_code_t = gpg_err_code_t(32776);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EBACKGROUND: gpg_err_code_t = gpg_err_code_t(32777);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EBADE: gpg_err_code_t = gpg_err_code_t(32778);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EBADF: gpg_err_code_t = gpg_err_code_t(32779);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EBADFD: gpg_err_code_t = gpg_err_code_t(32780);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EBADMSG: gpg_err_code_t = gpg_err_code_t(32781);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EBADR: gpg_err_code_t = gpg_err_code_t(32782);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EBADRPC: gpg_err_code_t = gpg_err_code_t(32783);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EBADRQC: gpg_err_code_t = gpg_err_code_t(32784);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EBADSLT: gpg_err_code_t = gpg_err_code_t(32785);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EBFONT: gpg_err_code_t = gpg_err_code_t(32786);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EBUSY: gpg_err_code_t = gpg_err_code_t(32787);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ECANCELED: gpg_err_code_t = gpg_err_code_t(32788);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ECHILD: gpg_err_code_t = gpg_err_code_t(32789);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ECHRNG: gpg_err_code_t = gpg_err_code_t(32790);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ECOMM: gpg_err_code_t = gpg_err_code_t(32791);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ECONNABORTED: gpg_err_code_t = gpg_err_code_t(32792);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ECONNREFUSED: gpg_err_code_t = gpg_err_code_t(32793);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ECONNRESET: gpg_err_code_t = gpg_err_code_t(32794);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ED: gpg_err_code_t = gpg_err_code_t(32795);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EDEADLK: gpg_err_code_t = gpg_err_code_t(32796);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EDEADLOCK: gpg_err_code_t = gpg_err_code_t(32797);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EDESTADDRREQ: gpg_err_code_t = gpg_err_code_t(32798);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EDIED: gpg_err_code_t = gpg_err_code_t(32799);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EDOM: gpg_err_code_t = gpg_err_code_t(32800);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EDOTDOT: gpg_err_code_t = gpg_err_code_t(32801);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EDQUOT: gpg_err_code_t = gpg_err_code_t(32802);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EEXIST: gpg_err_code_t = gpg_err_code_t(32803);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EFAULT: gpg_err_code_t = gpg_err_code_t(32804);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EFBIG: gpg_err_code_t = gpg_err_code_t(32805);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EFTYPE: gpg_err_code_t = gpg_err_code_t(32806);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EGRATUITOUS: gpg_err_code_t = gpg_err_code_t(32807);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EGREGIOUS: gpg_err_code_t = gpg_err_code_t(32808);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EHOSTDOWN: gpg_err_code_t = gpg_err_code_t(32809);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EHOSTUNREACH: gpg_err_code_t = gpg_err_code_t(32810);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EIDRM: gpg_err_code_t = gpg_err_code_t(32811);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EIEIO: gpg_err_code_t = gpg_err_code_t(32812);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EILSEQ: gpg_err_code_t = gpg_err_code_t(32813);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EINPROGRESS: gpg_err_code_t = gpg_err_code_t(32814);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EINTR: gpg_err_code_t = gpg_err_code_t(32815);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EINVAL: gpg_err_code_t = gpg_err_code_t(32816);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EIO: gpg_err_code_t = gpg_err_code_t(32817);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EISCONN: gpg_err_code_t = gpg_err_code_t(32818);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EISDIR: gpg_err_code_t = gpg_err_code_t(32819);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EISNAM: gpg_err_code_t = gpg_err_code_t(32820);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EL2HLT: gpg_err_code_t = gpg_err_code_t(32821);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EL2NSYNC: gpg_err_code_t = gpg_err_code_t(32822);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EL3HLT: gpg_err_code_t = gpg_err_code_t(32823);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EL3RST: gpg_err_code_t = gpg_err_code_t(32824);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ELIBACC: gpg_err_code_t = gpg_err_code_t(32825);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ELIBBAD: gpg_err_code_t = gpg_err_code_t(32826);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ELIBEXEC: gpg_err_code_t = gpg_err_code_t(32827);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ELIBMAX: gpg_err_code_t = gpg_err_code_t(32828);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ELIBSCN: gpg_err_code_t = gpg_err_code_t(32829);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ELNRNG: gpg_err_code_t = gpg_err_code_t(32830);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ELOOP: gpg_err_code_t = gpg_err_code_t(32831);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EMEDIUMTYPE: gpg_err_code_t = gpg_err_code_t(32832);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EMFILE: gpg_err_code_t = gpg_err_code_t(32833);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EMLINK: gpg_err_code_t = gpg_err_code_t(32834);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EMSGSIZE: gpg_err_code_t = gpg_err_code_t(32835);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EMULTIHOP: gpg_err_code_t = gpg_err_code_t(32836);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENAMETOOLONG: gpg_err_code_t = gpg_err_code_t(32837);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENAVAIL: gpg_err_code_t = gpg_err_code_t(32838);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENEEDAUTH: gpg_err_code_t = gpg_err_code_t(32839);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENETDOWN: gpg_err_code_t = gpg_err_code_t(32840);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENETRESET: gpg_err_code_t = gpg_err_code_t(32841);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENETUNREACH: gpg_err_code_t = gpg_err_code_t(32842);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENFILE: gpg_err_code_t = gpg_err_code_t(32843);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOANO: gpg_err_code_t = gpg_err_code_t(32844);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOBUFS: gpg_err_code_t = gpg_err_code_t(32845);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOCSI: gpg_err_code_t = gpg_err_code_t(32846);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENODATA: gpg_err_code_t = gpg_err_code_t(32847);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENODEV: gpg_err_code_t = gpg_err_code_t(32848);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOENT: gpg_err_code_t = gpg_err_code_t(32849);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOEXEC: gpg_err_code_t = gpg_err_code_t(32850);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOLCK: gpg_err_code_t = gpg_err_code_t(32851);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOLINK: gpg_err_code_t = gpg_err_code_t(32852);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOMEDIUM: gpg_err_code_t = gpg_err_code_t(32853);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOMEM: gpg_err_code_t = gpg_err_code_t(32854);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOMSG: gpg_err_code_t = gpg_err_code_t(32855);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENONET: gpg_err_code_t = gpg_err_code_t(32856);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOPKG: gpg_err_code_t = gpg_err_code_t(32857);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOPROTOOPT: gpg_err_code_t = gpg_err_code_t(32858);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOSPC: gpg_err_code_t = gpg_err_code_t(32859);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOSR: gpg_err_code_t = gpg_err_code_t(32860);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOSTR: gpg_err_code_t = gpg_err_code_t(32861);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOSYS: gpg_err_code_t = gpg_err_code_t(32862);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOTBLK: gpg_err_code_t = gpg_err_code_t(32863);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOTCONN: gpg_err_code_t = gpg_err_code_t(32864);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOTDIR: gpg_err_code_t = gpg_err_code_t(32865);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOTEMPTY: gpg_err_code_t = gpg_err_code_t(32866);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOTNAM: gpg_err_code_t = gpg_err_code_t(32867);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOTSOCK: gpg_err_code_t = gpg_err_code_t(32868);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOTSUP: gpg_err_code_t = gpg_err_code_t(32869);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOTTY: gpg_err_code_t = gpg_err_code_t(32870);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENOTUNIQ: gpg_err_code_t = gpg_err_code_t(32871);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ENXIO: gpg_err_code_t = gpg_err_code_t(32872);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EOPNOTSUPP: gpg_err_code_t = gpg_err_code_t(32873);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EOVERFLOW: gpg_err_code_t = gpg_err_code_t(32874);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EPERM: gpg_err_code_t = gpg_err_code_t(32875);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EPFNOSUPPORT: gpg_err_code_t = gpg_err_code_t(32876);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EPIPE: gpg_err_code_t = gpg_err_code_t(32877);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EPROCLIM: gpg_err_code_t = gpg_err_code_t(32878);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EPROCUNAVAIL: gpg_err_code_t = gpg_err_code_t(32879);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EPROGMISMATCH: gpg_err_code_t = gpg_err_code_t(32880);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EPROGUNAVAIL: gpg_err_code_t = gpg_err_code_t(32881);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EPROTO: gpg_err_code_t = gpg_err_code_t(32882);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EPROTONOSUPPORT: gpg_err_code_t = gpg_err_code_t(32883);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EPROTOTYPE: gpg_err_code_t = gpg_err_code_t(32884);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ERANGE: gpg_err_code_t = gpg_err_code_t(32885);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EREMCHG: gpg_err_code_t = gpg_err_code_t(32886);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EREMOTE: gpg_err_code_t = gpg_err_code_t(32887);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EREMOTEIO: gpg_err_code_t = gpg_err_code_t(32888);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ERESTART: gpg_err_code_t = gpg_err_code_t(32889);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EROFS: gpg_err_code_t = gpg_err_code_t(32890);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ERPCMISMATCH: gpg_err_code_t = gpg_err_code_t(32891);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ESHUTDOWN: gpg_err_code_t = gpg_err_code_t(32892);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ESOCKTNOSUPPORT: gpg_err_code_t = gpg_err_code_t(32893);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ESPIPE: gpg_err_code_t = gpg_err_code_t(32894);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ESRCH: gpg_err_code_t = gpg_err_code_t(32895);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ESRMNT: gpg_err_code_t = gpg_err_code_t(32896);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ESTALE: gpg_err_code_t = gpg_err_code_t(32897);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ESTRPIPE: gpg_err_code_t = gpg_err_code_t(32898);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ETIME: gpg_err_code_t = gpg_err_code_t(32899);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ETIMEDOUT: gpg_err_code_t = gpg_err_code_t(32900);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ETOOMANYREFS: gpg_err_code_t = gpg_err_code_t(32901);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_ETXTBSY: gpg_err_code_t = gpg_err_code_t(32902);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EUCLEAN: gpg_err_code_t = gpg_err_code_t(32903);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EUNATCH: gpg_err_code_t = gpg_err_code_t(32904);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EUSERS: gpg_err_code_t = gpg_err_code_t(32905);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EWOULDBLOCK: gpg_err_code_t = gpg_err_code_t(32906);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EXDEV: gpg_err_code_t = gpg_err_code_t(32907);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_EXFULL: gpg_err_code_t = gpg_err_code_t(32908);
+}
+impl gpg_err_code_t {
+    pub const GPG_ERR_CODE_DIM: gpg_err_code_t = gpg_err_code_t(65536);
+}
+impl ::core::ops::BitOr<gpg_err_code_t> for gpg_err_code_t {
+    type Output = Self;
+    #[inline]
+    fn bitor(self, other: Self) -> Self {
+        gpg_err_code_t(self.0 | other.0)
+    }
+}
+impl ::core::ops::BitOrAssign for gpg_err_code_t {
+    #[inline]
+    fn bitor_assign(&mut self, rhs: gpg_err_code_t) {
+        self.0 |= rhs.0;
+    }
+}
+impl ::core::ops::BitAnd<gpg_err_code_t> for gpg_err_code_t {
+    type Output = Self;
+    #[inline]
+    fn bitand(self, other: Self) -> Self {
+        gpg_err_code_t(self.0 & other.0)
+    }
+}
+impl ::core::ops::BitAndAssign for gpg_err_code_t {
+    #[inline]
+    fn bitand_assign(&mut self, rhs: gpg_err_code_t) {
+        self.0 &= rhs.0;
+    }
+}
+#[repr(transparent)]
+#[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
+pub struct gpg_err_code_t(pub ::std::os::raw::c_uint);
 pub type gpg_error_t = ::std::os::raw::c_uint;
 extern "C" {
     pub fn gpg_err_init() -> gpg_error_t;
@@ -2007,1226 +2393,6 @@ extern "C" {
     pub fn gpg_error_check_version(
         req_version: *const ::std::os::raw::c_char,
     ) -> *const ::std::os::raw::c_char;
-}
-pub type u_char = __u_char;
-pub type u_short = __u_short;
-pub type u_int = __u_int;
-pub type u_long = __u_long;
-pub type quad_t = __quad_t;
-pub type u_quad_t = __u_quad_t;
-pub type fsid_t = __fsid_t;
-pub type loff_t = __loff_t;
-pub type ino_t = __ino_t;
-pub type dev_t = __dev_t;
-pub type gid_t = __gid_t;
-pub type mode_t = __mode_t;
-pub type nlink_t = __nlink_t;
-pub type uid_t = __uid_t;
-pub type pid_t = __pid_t;
-pub type id_t = __id_t;
-pub type daddr_t = __daddr_t;
-pub type caddr_t = __caddr_t;
-pub type key_t = __key_t;
-pub type clock_t = __clock_t;
-pub type clockid_t = __clockid_t;
-pub type time_t = __time_t;
-pub type timer_t = __timer_t;
-pub type ulong = ::std::os::raw::c_ulong;
-pub type ushort = ::std::os::raw::c_ushort;
-pub type uint = ::std::os::raw::c_uint;
-pub type u_int8_t = __uint8_t;
-pub type u_int16_t = __uint16_t;
-pub type u_int32_t = __uint32_t;
-pub type u_int64_t = __uint64_t;
-pub type register_t = ::std::os::raw::c_long;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct __sigset_t {
-    pub __val: [::std::os::raw::c_ulong; 16usize],
-}
-#[test]
-fn bindgen_test_layout___sigset_t() {
-    assert_eq!(
-        ::core::mem::size_of::<__sigset_t>(),
-        128usize,
-        concat!("Size of: ", stringify!(__sigset_t))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<__sigset_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(__sigset_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__sigset_t>())).__val as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__sigset_t),
-            "::",
-            stringify!(__val)
-        )
-    );
-}
-pub type sigset_t = __sigset_t;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct timeval {
-    pub tv_sec: __time_t,
-    pub tv_usec: __suseconds_t,
-}
-#[test]
-fn bindgen_test_layout_timeval() {
-    assert_eq!(
-        ::core::mem::size_of::<timeval>(),
-        16usize,
-        concat!("Size of: ", stringify!(timeval))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<timeval>(),
-        8usize,
-        concat!("Alignment of ", stringify!(timeval))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<timeval>())).tv_sec as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(timeval),
-            "::",
-            stringify!(tv_sec)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<timeval>())).tv_usec as *const _ as usize },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(timeval),
-            "::",
-            stringify!(tv_usec)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct timespec {
-    pub tv_sec: __time_t,
-    pub tv_nsec: __syscall_slong_t,
-}
-#[test]
-fn bindgen_test_layout_timespec() {
-    assert_eq!(
-        ::core::mem::size_of::<timespec>(),
-        16usize,
-        concat!("Size of: ", stringify!(timespec))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<timespec>(),
-        8usize,
-        concat!("Alignment of ", stringify!(timespec))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<timespec>())).tv_sec as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(timespec),
-            "::",
-            stringify!(tv_sec)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<timespec>())).tv_nsec as *const _ as usize },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(timespec),
-            "::",
-            stringify!(tv_nsec)
-        )
-    );
-}
-pub type suseconds_t = __suseconds_t;
-pub type __fd_mask = ::std::os::raw::c_long;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct fd_set {
-    pub __fds_bits: [__fd_mask; 16usize],
-}
-#[test]
-fn bindgen_test_layout_fd_set() {
-    assert_eq!(
-        ::core::mem::size_of::<fd_set>(),
-        128usize,
-        concat!("Size of: ", stringify!(fd_set))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<fd_set>(),
-        8usize,
-        concat!("Alignment of ", stringify!(fd_set))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<fd_set>())).__fds_bits as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(fd_set),
-            "::",
-            stringify!(__fds_bits)
-        )
-    );
-}
-pub type fd_mask = __fd_mask;
-extern "C" {
-    pub fn select(
-        __nfds: ::std::os::raw::c_int,
-        __readfds: *mut fd_set,
-        __writefds: *mut fd_set,
-        __exceptfds: *mut fd_set,
-        __timeout: *mut timeval,
-    ) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn pselect(
-        __nfds: ::std::os::raw::c_int,
-        __readfds: *mut fd_set,
-        __writefds: *mut fd_set,
-        __exceptfds: *mut fd_set,
-        __timeout: *const timespec,
-        __sigmask: *const __sigset_t,
-    ) -> ::std::os::raw::c_int;
-}
-pub type blksize_t = __blksize_t;
-pub type blkcnt_t = __blkcnt_t;
-pub type fsblkcnt_t = __fsblkcnt_t;
-pub type fsfilcnt_t = __fsfilcnt_t;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct __pthread_internal_list {
-    pub __prev: *mut __pthread_internal_list,
-    pub __next: *mut __pthread_internal_list,
-}
-#[test]
-fn bindgen_test_layout___pthread_internal_list() {
-    assert_eq!(
-        ::core::mem::size_of::<__pthread_internal_list>(),
-        16usize,
-        concat!("Size of: ", stringify!(__pthread_internal_list))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<__pthread_internal_list>(),
-        8usize,
-        concat!("Alignment of ", stringify!(__pthread_internal_list))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__pthread_internal_list>())).__prev as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_internal_list),
-            "::",
-            stringify!(__prev)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__pthread_internal_list>())).__next as *const _ as usize },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_internal_list),
-            "::",
-            stringify!(__next)
-        )
-    );
-}
-pub type __pthread_list_t = __pthread_internal_list;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct __pthread_internal_slist {
-    pub __next: *mut __pthread_internal_slist,
-}
-#[test]
-fn bindgen_test_layout___pthread_internal_slist() {
-    assert_eq!(
-        ::core::mem::size_of::<__pthread_internal_slist>(),
-        8usize,
-        concat!("Size of: ", stringify!(__pthread_internal_slist))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<__pthread_internal_slist>(),
-        8usize,
-        concat!("Alignment of ", stringify!(__pthread_internal_slist))
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__pthread_internal_slist>())).__next as *const _ as usize
-        },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_internal_slist),
-            "::",
-            stringify!(__next)
-        )
-    );
-}
-pub type __pthread_slist_t = __pthread_internal_slist;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct __pthread_mutex_s {
-    pub __lock: ::std::os::raw::c_int,
-    pub __count: ::std::os::raw::c_uint,
-    pub __owner: ::std::os::raw::c_int,
-    pub __nusers: ::std::os::raw::c_uint,
-    pub __kind: ::std::os::raw::c_int,
-    pub __spins: ::std::os::raw::c_short,
-    pub __elision: ::std::os::raw::c_short,
-    pub __list: __pthread_list_t,
-}
-#[test]
-fn bindgen_test_layout___pthread_mutex_s() {
-    assert_eq!(
-        ::core::mem::size_of::<__pthread_mutex_s>(),
-        40usize,
-        concat!("Size of: ", stringify!(__pthread_mutex_s))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<__pthread_mutex_s>(),
-        8usize,
-        concat!("Alignment of ", stringify!(__pthread_mutex_s))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__pthread_mutex_s>())).__lock as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_mutex_s),
-            "::",
-            stringify!(__lock)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__pthread_mutex_s>())).__count as *const _ as usize },
-        4usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_mutex_s),
-            "::",
-            stringify!(__count)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__pthread_mutex_s>())).__owner as *const _ as usize },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_mutex_s),
-            "::",
-            stringify!(__owner)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__pthread_mutex_s>())).__nusers as *const _ as usize },
-        12usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_mutex_s),
-            "::",
-            stringify!(__nusers)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__pthread_mutex_s>())).__kind as *const _ as usize },
-        16usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_mutex_s),
-            "::",
-            stringify!(__kind)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__pthread_mutex_s>())).__spins as *const _ as usize },
-        20usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_mutex_s),
-            "::",
-            stringify!(__spins)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__pthread_mutex_s>())).__elision as *const _ as usize },
-        22usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_mutex_s),
-            "::",
-            stringify!(__elision)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__pthread_mutex_s>())).__list as *const _ as usize },
-        24usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_mutex_s),
-            "::",
-            stringify!(__list)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct __pthread_rwlock_arch_t {
-    pub __readers: ::std::os::raw::c_uint,
-    pub __writers: ::std::os::raw::c_uint,
-    pub __wrphase_futex: ::std::os::raw::c_uint,
-    pub __writers_futex: ::std::os::raw::c_uint,
-    pub __pad3: ::std::os::raw::c_uint,
-    pub __pad4: ::std::os::raw::c_uint,
-    pub __cur_writer: ::std::os::raw::c_int,
-    pub __shared: ::std::os::raw::c_int,
-    pub __rwelision: ::std::os::raw::c_schar,
-    pub __pad1: [::std::os::raw::c_uchar; 7usize],
-    pub __pad2: ::std::os::raw::c_ulong,
-    pub __flags: ::std::os::raw::c_uint,
-}
-#[test]
-fn bindgen_test_layout___pthread_rwlock_arch_t() {
-    assert_eq!(
-        ::core::mem::size_of::<__pthread_rwlock_arch_t>(),
-        56usize,
-        concat!("Size of: ", stringify!(__pthread_rwlock_arch_t))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<__pthread_rwlock_arch_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(__pthread_rwlock_arch_t))
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__pthread_rwlock_arch_t>())).__readers as *const _ as usize
-        },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_rwlock_arch_t),
-            "::",
-            stringify!(__readers)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__pthread_rwlock_arch_t>())).__writers as *const _ as usize
-        },
-        4usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_rwlock_arch_t),
-            "::",
-            stringify!(__writers)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__pthread_rwlock_arch_t>())).__wrphase_futex as *const _
-                as usize
-        },
-        8usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_rwlock_arch_t),
-            "::",
-            stringify!(__wrphase_futex)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__pthread_rwlock_arch_t>())).__writers_futex as *const _
-                as usize
-        },
-        12usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_rwlock_arch_t),
-            "::",
-            stringify!(__writers_futex)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__pthread_rwlock_arch_t>())).__pad3 as *const _ as usize },
-        16usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_rwlock_arch_t),
-            "::",
-            stringify!(__pad3)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__pthread_rwlock_arch_t>())).__pad4 as *const _ as usize },
-        20usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_rwlock_arch_t),
-            "::",
-            stringify!(__pad4)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__pthread_rwlock_arch_t>())).__cur_writer as *const _ as usize
-        },
-        24usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_rwlock_arch_t),
-            "::",
-            stringify!(__cur_writer)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__pthread_rwlock_arch_t>())).__shared as *const _ as usize
-        },
-        28usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_rwlock_arch_t),
-            "::",
-            stringify!(__shared)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__pthread_rwlock_arch_t>())).__rwelision as *const _ as usize
-        },
-        32usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_rwlock_arch_t),
-            "::",
-            stringify!(__rwelision)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__pthread_rwlock_arch_t>())).__pad1 as *const _ as usize },
-        33usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_rwlock_arch_t),
-            "::",
-            stringify!(__pad1)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__pthread_rwlock_arch_t>())).__pad2 as *const _ as usize },
-        40usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_rwlock_arch_t),
-            "::",
-            stringify!(__pad2)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__pthread_rwlock_arch_t>())).__flags as *const _ as usize
-        },
-        48usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_rwlock_arch_t),
-            "::",
-            stringify!(__flags)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Copy, Clone)]
-pub struct __pthread_cond_s {
-    pub __bindgen_anon_1: __pthread_cond_s__bindgen_ty_1,
-    pub __bindgen_anon_2: __pthread_cond_s__bindgen_ty_2,
-    pub __g_refs: [::std::os::raw::c_uint; 2usize],
-    pub __g_size: [::std::os::raw::c_uint; 2usize],
-    pub __g1_orig_size: ::std::os::raw::c_uint,
-    pub __wrefs: ::std::os::raw::c_uint,
-    pub __g_signals: [::std::os::raw::c_uint; 2usize],
-}
-#[repr(C)]
-#[derive(Copy, Clone)]
-pub union __pthread_cond_s__bindgen_ty_1 {
-    pub __wseq: ::std::os::raw::c_ulonglong,
-    pub __wseq32: __pthread_cond_s__bindgen_ty_1__bindgen_ty_1,
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct __pthread_cond_s__bindgen_ty_1__bindgen_ty_1 {
-    pub __low: ::std::os::raw::c_uint,
-    pub __high: ::std::os::raw::c_uint,
-}
-#[test]
-fn bindgen_test_layout___pthread_cond_s__bindgen_ty_1__bindgen_ty_1() {
-    assert_eq!(
-        ::core::mem::size_of::<__pthread_cond_s__bindgen_ty_1__bindgen_ty_1>(),
-        8usize,
-        concat!(
-            "Size of: ",
-            stringify!(__pthread_cond_s__bindgen_ty_1__bindgen_ty_1)
-        )
-    );
-    assert_eq!(
-        ::core::mem::align_of::<__pthread_cond_s__bindgen_ty_1__bindgen_ty_1>(),
-        4usize,
-        concat!(
-            "Alignment of ",
-            stringify!(__pthread_cond_s__bindgen_ty_1__bindgen_ty_1)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__pthread_cond_s__bindgen_ty_1__bindgen_ty_1>())).__low
-                as *const _ as usize
-        },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_cond_s__bindgen_ty_1__bindgen_ty_1),
-            "::",
-            stringify!(__low)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__pthread_cond_s__bindgen_ty_1__bindgen_ty_1>())).__high
-                as *const _ as usize
-        },
-        4usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_cond_s__bindgen_ty_1__bindgen_ty_1),
-            "::",
-            stringify!(__high)
-        )
-    );
-}
-#[test]
-fn bindgen_test_layout___pthread_cond_s__bindgen_ty_1() {
-    assert_eq!(
-        ::core::mem::size_of::<__pthread_cond_s__bindgen_ty_1>(),
-        8usize,
-        concat!("Size of: ", stringify!(__pthread_cond_s__bindgen_ty_1))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<__pthread_cond_s__bindgen_ty_1>(),
-        8usize,
-        concat!("Alignment of ", stringify!(__pthread_cond_s__bindgen_ty_1))
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__pthread_cond_s__bindgen_ty_1>())).__wseq as *const _ as usize
-        },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_cond_s__bindgen_ty_1),
-            "::",
-            stringify!(__wseq)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__pthread_cond_s__bindgen_ty_1>())).__wseq32 as *const _
-                as usize
-        },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_cond_s__bindgen_ty_1),
-            "::",
-            stringify!(__wseq32)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Copy, Clone)]
-pub union __pthread_cond_s__bindgen_ty_2 {
-    pub __g1_start: ::std::os::raw::c_ulonglong,
-    pub __g1_start32: __pthread_cond_s__bindgen_ty_2__bindgen_ty_1,
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct __pthread_cond_s__bindgen_ty_2__bindgen_ty_1 {
-    pub __low: ::std::os::raw::c_uint,
-    pub __high: ::std::os::raw::c_uint,
-}
-#[test]
-fn bindgen_test_layout___pthread_cond_s__bindgen_ty_2__bindgen_ty_1() {
-    assert_eq!(
-        ::core::mem::size_of::<__pthread_cond_s__bindgen_ty_2__bindgen_ty_1>(),
-        8usize,
-        concat!(
-            "Size of: ",
-            stringify!(__pthread_cond_s__bindgen_ty_2__bindgen_ty_1)
-        )
-    );
-    assert_eq!(
-        ::core::mem::align_of::<__pthread_cond_s__bindgen_ty_2__bindgen_ty_1>(),
-        4usize,
-        concat!(
-            "Alignment of ",
-            stringify!(__pthread_cond_s__bindgen_ty_2__bindgen_ty_1)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__pthread_cond_s__bindgen_ty_2__bindgen_ty_1>())).__low
-                as *const _ as usize
-        },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_cond_s__bindgen_ty_2__bindgen_ty_1),
-            "::",
-            stringify!(__low)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__pthread_cond_s__bindgen_ty_2__bindgen_ty_1>())).__high
-                as *const _ as usize
-        },
-        4usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_cond_s__bindgen_ty_2__bindgen_ty_1),
-            "::",
-            stringify!(__high)
-        )
-    );
-}
-#[test]
-fn bindgen_test_layout___pthread_cond_s__bindgen_ty_2() {
-    assert_eq!(
-        ::core::mem::size_of::<__pthread_cond_s__bindgen_ty_2>(),
-        8usize,
-        concat!("Size of: ", stringify!(__pthread_cond_s__bindgen_ty_2))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<__pthread_cond_s__bindgen_ty_2>(),
-        8usize,
-        concat!("Alignment of ", stringify!(__pthread_cond_s__bindgen_ty_2))
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__pthread_cond_s__bindgen_ty_2>())).__g1_start as *const _
-                as usize
-        },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_cond_s__bindgen_ty_2),
-            "::",
-            stringify!(__g1_start)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__pthread_cond_s__bindgen_ty_2>())).__g1_start32 as *const _
-                as usize
-        },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_cond_s__bindgen_ty_2),
-            "::",
-            stringify!(__g1_start32)
-        )
-    );
-}
-#[test]
-fn bindgen_test_layout___pthread_cond_s() {
-    assert_eq!(
-        ::core::mem::size_of::<__pthread_cond_s>(),
-        48usize,
-        concat!("Size of: ", stringify!(__pthread_cond_s))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<__pthread_cond_s>(),
-        8usize,
-        concat!("Alignment of ", stringify!(__pthread_cond_s))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__pthread_cond_s>())).__g_refs as *const _ as usize },
-        16usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_cond_s),
-            "::",
-            stringify!(__g_refs)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__pthread_cond_s>())).__g_size as *const _ as usize },
-        24usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_cond_s),
-            "::",
-            stringify!(__g_size)
-        )
-    );
-    assert_eq!(
-        unsafe {
-            &(*(::core::ptr::null::<__pthread_cond_s>())).__g1_orig_size as *const _ as usize
-        },
-        32usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_cond_s),
-            "::",
-            stringify!(__g1_orig_size)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__pthread_cond_s>())).__wrefs as *const _ as usize },
-        36usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_cond_s),
-            "::",
-            stringify!(__wrefs)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__pthread_cond_s>())).__g_signals as *const _ as usize },
-        40usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__pthread_cond_s),
-            "::",
-            stringify!(__g_signals)
-        )
-    );
-}
-pub type __tss_t = ::std::os::raw::c_uint;
-pub type __thrd_t = ::std::os::raw::c_ulong;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct __once_flag {
-    pub __data: ::std::os::raw::c_int,
-}
-#[test]
-fn bindgen_test_layout___once_flag() {
-    assert_eq!(
-        ::core::mem::size_of::<__once_flag>(),
-        4usize,
-        concat!("Size of: ", stringify!(__once_flag))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<__once_flag>(),
-        4usize,
-        concat!("Alignment of ", stringify!(__once_flag))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<__once_flag>())).__data as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(__once_flag),
-            "::",
-            stringify!(__data)
-        )
-    );
-}
-pub type pthread_t = ::std::os::raw::c_ulong;
-#[repr(C)]
-#[derive(Copy, Clone)]
-pub union pthread_mutexattr_t {
-    pub __size: [::std::os::raw::c_char; 4usize],
-    pub __align: ::std::os::raw::c_int,
-}
-#[test]
-fn bindgen_test_layout_pthread_mutexattr_t() {
-    assert_eq!(
-        ::core::mem::size_of::<pthread_mutexattr_t>(),
-        4usize,
-        concat!("Size of: ", stringify!(pthread_mutexattr_t))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<pthread_mutexattr_t>(),
-        4usize,
-        concat!("Alignment of ", stringify!(pthread_mutexattr_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_mutexattr_t>())).__size as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_mutexattr_t),
-            "::",
-            stringify!(__size)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_mutexattr_t>())).__align as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_mutexattr_t),
-            "::",
-            stringify!(__align)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Copy, Clone)]
-pub union pthread_condattr_t {
-    pub __size: [::std::os::raw::c_char; 4usize],
-    pub __align: ::std::os::raw::c_int,
-}
-#[test]
-fn bindgen_test_layout_pthread_condattr_t() {
-    assert_eq!(
-        ::core::mem::size_of::<pthread_condattr_t>(),
-        4usize,
-        concat!("Size of: ", stringify!(pthread_condattr_t))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<pthread_condattr_t>(),
-        4usize,
-        concat!("Alignment of ", stringify!(pthread_condattr_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_condattr_t>())).__size as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_condattr_t),
-            "::",
-            stringify!(__size)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_condattr_t>())).__align as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_condattr_t),
-            "::",
-            stringify!(__align)
-        )
-    );
-}
-pub type pthread_key_t = ::std::os::raw::c_uint;
-pub type pthread_once_t = ::std::os::raw::c_int;
-#[repr(C)]
-#[derive(Copy, Clone)]
-pub union pthread_attr_t {
-    pub __size: [::std::os::raw::c_char; 56usize],
-    pub __align: ::std::os::raw::c_long,
-}
-#[test]
-fn bindgen_test_layout_pthread_attr_t() {
-    assert_eq!(
-        ::core::mem::size_of::<pthread_attr_t>(),
-        56usize,
-        concat!("Size of: ", stringify!(pthread_attr_t))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<pthread_attr_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(pthread_attr_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_attr_t>())).__size as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_attr_t),
-            "::",
-            stringify!(__size)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_attr_t>())).__align as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_attr_t),
-            "::",
-            stringify!(__align)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Copy, Clone)]
-pub union pthread_mutex_t {
-    pub __data: __pthread_mutex_s,
-    pub __size: [::std::os::raw::c_char; 40usize],
-    pub __align: ::std::os::raw::c_long,
-}
-#[test]
-fn bindgen_test_layout_pthread_mutex_t() {
-    assert_eq!(
-        ::core::mem::size_of::<pthread_mutex_t>(),
-        40usize,
-        concat!("Size of: ", stringify!(pthread_mutex_t))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<pthread_mutex_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(pthread_mutex_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_mutex_t>())).__data as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_mutex_t),
-            "::",
-            stringify!(__data)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_mutex_t>())).__size as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_mutex_t),
-            "::",
-            stringify!(__size)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_mutex_t>())).__align as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_mutex_t),
-            "::",
-            stringify!(__align)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Copy, Clone)]
-pub union pthread_cond_t {
-    pub __data: __pthread_cond_s,
-    pub __size: [::std::os::raw::c_char; 48usize],
-    pub __align: ::std::os::raw::c_longlong,
-}
-#[test]
-fn bindgen_test_layout_pthread_cond_t() {
-    assert_eq!(
-        ::core::mem::size_of::<pthread_cond_t>(),
-        48usize,
-        concat!("Size of: ", stringify!(pthread_cond_t))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<pthread_cond_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(pthread_cond_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_cond_t>())).__data as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_cond_t),
-            "::",
-            stringify!(__data)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_cond_t>())).__size as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_cond_t),
-            "::",
-            stringify!(__size)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_cond_t>())).__align as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_cond_t),
-            "::",
-            stringify!(__align)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Copy, Clone)]
-pub union pthread_rwlock_t {
-    pub __data: __pthread_rwlock_arch_t,
-    pub __size: [::std::os::raw::c_char; 56usize],
-    pub __align: ::std::os::raw::c_long,
-}
-#[test]
-fn bindgen_test_layout_pthread_rwlock_t() {
-    assert_eq!(
-        ::core::mem::size_of::<pthread_rwlock_t>(),
-        56usize,
-        concat!("Size of: ", stringify!(pthread_rwlock_t))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<pthread_rwlock_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(pthread_rwlock_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_rwlock_t>())).__data as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_rwlock_t),
-            "::",
-            stringify!(__data)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_rwlock_t>())).__size as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_rwlock_t),
-            "::",
-            stringify!(__size)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_rwlock_t>())).__align as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_rwlock_t),
-            "::",
-            stringify!(__align)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Copy, Clone)]
-pub union pthread_rwlockattr_t {
-    pub __size: [::std::os::raw::c_char; 8usize],
-    pub __align: ::std::os::raw::c_long,
-}
-#[test]
-fn bindgen_test_layout_pthread_rwlockattr_t() {
-    assert_eq!(
-        ::core::mem::size_of::<pthread_rwlockattr_t>(),
-        8usize,
-        concat!("Size of: ", stringify!(pthread_rwlockattr_t))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<pthread_rwlockattr_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(pthread_rwlockattr_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_rwlockattr_t>())).__size as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_rwlockattr_t),
-            "::",
-            stringify!(__size)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_rwlockattr_t>())).__align as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_rwlockattr_t),
-            "::",
-            stringify!(__align)
-        )
-    );
-}
-pub type pthread_spinlock_t = ::std::os::raw::c_int;
-#[repr(C)]
-#[derive(Copy, Clone)]
-pub union pthread_barrier_t {
-    pub __size: [::std::os::raw::c_char; 32usize],
-    pub __align: ::std::os::raw::c_long,
-}
-#[test]
-fn bindgen_test_layout_pthread_barrier_t() {
-    assert_eq!(
-        ::core::mem::size_of::<pthread_barrier_t>(),
-        32usize,
-        concat!("Size of: ", stringify!(pthread_barrier_t))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<pthread_barrier_t>(),
-        8usize,
-        concat!("Alignment of ", stringify!(pthread_barrier_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_barrier_t>())).__size as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_barrier_t),
-            "::",
-            stringify!(__size)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_barrier_t>())).__align as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_barrier_t),
-            "::",
-            stringify!(__align)
-        )
-    );
-}
-#[repr(C)]
-#[derive(Copy, Clone)]
-pub union pthread_barrierattr_t {
-    pub __size: [::std::os::raw::c_char; 4usize],
-    pub __align: ::std::os::raw::c_int,
-}
-#[test]
-fn bindgen_test_layout_pthread_barrierattr_t() {
-    assert_eq!(
-        ::core::mem::size_of::<pthread_barrierattr_t>(),
-        4usize,
-        concat!("Size of: ", stringify!(pthread_barrierattr_t))
-    );
-    assert_eq!(
-        ::core::mem::align_of::<pthread_barrierattr_t>(),
-        4usize,
-        concat!("Alignment of ", stringify!(pthread_barrierattr_t))
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_barrierattr_t>())).__size as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_barrierattr_t),
-            "::",
-            stringify!(__size)
-        )
-    );
-    assert_eq!(
-        unsafe { &(*(::core::ptr::null::<pthread_barrierattr_t>())).__align as *const _ as usize },
-        0usize,
-        concat!(
-            "Offset of field: ",
-            stringify!(pthread_barrierattr_t),
-            "::",
-            stringify!(__align)
-        )
-    );
 }
 pub type gpgrt_ssize_t = isize;
 pub type gpgrt_off_t = ::std::os::raw::c_long;
@@ -3702,12 +2868,50 @@ fn bindgen_test_layout__gpgrt_cookie_io_functions() {
     );
 }
 pub type gpgrt_cookie_io_functions_t = _gpgrt_cookie_io_functions;
-pub const gpgrt_syshd_types_GPGRT_SYSHD_NONE: gpgrt_syshd_types = 0;
-pub const gpgrt_syshd_types_GPGRT_SYSHD_FD: gpgrt_syshd_types = 1;
-pub const gpgrt_syshd_types_GPGRT_SYSHD_SOCK: gpgrt_syshd_types = 2;
-pub const gpgrt_syshd_types_GPGRT_SYSHD_RVID: gpgrt_syshd_types = 3;
-pub const gpgrt_syshd_types_GPGRT_SYSHD_HANDLE: gpgrt_syshd_types = 4;
-pub type gpgrt_syshd_types = ::std::os::raw::c_uint;
+impl gpgrt_syshd_types {
+    pub const GPGRT_SYSHD_NONE: gpgrt_syshd_types = gpgrt_syshd_types(0);
+}
+impl gpgrt_syshd_types {
+    pub const GPGRT_SYSHD_FD: gpgrt_syshd_types = gpgrt_syshd_types(1);
+}
+impl gpgrt_syshd_types {
+    pub const GPGRT_SYSHD_SOCK: gpgrt_syshd_types = gpgrt_syshd_types(2);
+}
+impl gpgrt_syshd_types {
+    pub const GPGRT_SYSHD_RVID: gpgrt_syshd_types = gpgrt_syshd_types(3);
+}
+impl gpgrt_syshd_types {
+    pub const GPGRT_SYSHD_HANDLE: gpgrt_syshd_types = gpgrt_syshd_types(4);
+}
+impl ::core::ops::BitOr<gpgrt_syshd_types> for gpgrt_syshd_types {
+    type Output = Self;
+    #[inline]
+    fn bitor(self, other: Self) -> Self {
+        gpgrt_syshd_types(self.0 | other.0)
+    }
+}
+impl ::core::ops::BitOrAssign for gpgrt_syshd_types {
+    #[inline]
+    fn bitor_assign(&mut self, rhs: gpgrt_syshd_types) {
+        self.0 |= rhs.0;
+    }
+}
+impl ::core::ops::BitAnd<gpgrt_syshd_types> for gpgrt_syshd_types {
+    type Output = Self;
+    #[inline]
+    fn bitand(self, other: Self) -> Self {
+        gpgrt_syshd_types(self.0 & other.0)
+    }
+}
+impl ::core::ops::BitAndAssign for gpgrt_syshd_types {
+    #[inline]
+    fn bitand_assign(&mut self, rhs: gpgrt_syshd_types) {
+        self.0 &= rhs.0;
+    }
+}
+#[repr(transparent)]
+#[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
+pub struct gpgrt_syshd_types(pub ::std::os::raw::c_uint);
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct _gpgrt_syshd {
@@ -4234,12 +3438,6 @@ extern "C" {
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn _gpgrt_set_std_fd(no: ::std::os::raw::c_int, fd: ::std::os::raw::c_int);
-}
-extern "C" {
-    pub fn _gpgrt_get_std_stream(fd: ::std::os::raw::c_int) -> gpgrt_stream_t;
-}
-extern "C" {
     pub fn gpgrt_flockfile(stream: gpgrt_stream_t);
 }
 extern "C" {
@@ -4265,12 +3463,6 @@ extern "C" {
 }
 extern "C" {
     pub fn gpgrt_clearerr_unlocked(stream: gpgrt_stream_t);
-}
-extern "C" {
-    pub fn _gpgrt_pending(stream: gpgrt_stream_t) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _gpgrt_pending_unlocked(stream: gpgrt_stream_t) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn gpgrt_fflush(stream: gpgrt_stream_t) -> ::std::os::raw::c_int;
@@ -4306,15 +3498,6 @@ extern "C" {
 }
 extern "C" {
     pub fn gpgrt_fputc(c: ::std::os::raw::c_int, stream: gpgrt_stream_t) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _gpgrt_getc_underflow(stream: gpgrt_stream_t) -> ::std::os::raw::c_int;
-}
-extern "C" {
-    pub fn _gpgrt_putc_overflow(
-        c: ::std::os::raw::c_int,
-        stream: gpgrt_stream_t,
-    ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn gpgrt_ungetc(c: ::std::os::raw::c_int, stream: gpgrt_stream_t) -> ::std::os::raw::c_int;
@@ -4581,15 +3764,59 @@ extern "C" {
 extern "C" {
     pub fn gpgrt_b64dec_finish(state: gpgrt_b64state_t) -> gpg_error_t;
 }
-pub const gpgrt_log_levels_GPGRT_LOGLVL_BEGIN: gpgrt_log_levels = 0;
-pub const gpgrt_log_levels_GPGRT_LOGLVL_CONT: gpgrt_log_levels = 1;
-pub const gpgrt_log_levels_GPGRT_LOGLVL_INFO: gpgrt_log_levels = 2;
-pub const gpgrt_log_levels_GPGRT_LOGLVL_WARN: gpgrt_log_levels = 3;
-pub const gpgrt_log_levels_GPGRT_LOGLVL_ERROR: gpgrt_log_levels = 4;
-pub const gpgrt_log_levels_GPGRT_LOGLVL_FATAL: gpgrt_log_levels = 5;
-pub const gpgrt_log_levels_GPGRT_LOGLVL_BUG: gpgrt_log_levels = 6;
-pub const gpgrt_log_levels_GPGRT_LOGLVL_DEBUG: gpgrt_log_levels = 7;
-pub type gpgrt_log_levels = ::std::os::raw::c_uint;
+impl gpgrt_log_levels {
+    pub const GPGRT_LOGLVL_BEGIN: gpgrt_log_levels = gpgrt_log_levels(0);
+}
+impl gpgrt_log_levels {
+    pub const GPGRT_LOGLVL_CONT: gpgrt_log_levels = gpgrt_log_levels(1);
+}
+impl gpgrt_log_levels {
+    pub const GPGRT_LOGLVL_INFO: gpgrt_log_levels = gpgrt_log_levels(2);
+}
+impl gpgrt_log_levels {
+    pub const GPGRT_LOGLVL_WARN: gpgrt_log_levels = gpgrt_log_levels(3);
+}
+impl gpgrt_log_levels {
+    pub const GPGRT_LOGLVL_ERROR: gpgrt_log_levels = gpgrt_log_levels(4);
+}
+impl gpgrt_log_levels {
+    pub const GPGRT_LOGLVL_FATAL: gpgrt_log_levels = gpgrt_log_levels(5);
+}
+impl gpgrt_log_levels {
+    pub const GPGRT_LOGLVL_BUG: gpgrt_log_levels = gpgrt_log_levels(6);
+}
+impl gpgrt_log_levels {
+    pub const GPGRT_LOGLVL_DEBUG: gpgrt_log_levels = gpgrt_log_levels(7);
+}
+impl ::core::ops::BitOr<gpgrt_log_levels> for gpgrt_log_levels {
+    type Output = Self;
+    #[inline]
+    fn bitor(self, other: Self) -> Self {
+        gpgrt_log_levels(self.0 | other.0)
+    }
+}
+impl ::core::ops::BitOrAssign for gpgrt_log_levels {
+    #[inline]
+    fn bitor_assign(&mut self, rhs: gpgrt_log_levels) {
+        self.0 |= rhs.0;
+    }
+}
+impl ::core::ops::BitAnd<gpgrt_log_levels> for gpgrt_log_levels {
+    type Output = Self;
+    #[inline]
+    fn bitand(self, other: Self) -> Self {
+        gpgrt_log_levels(self.0 & other.0)
+    }
+}
+impl ::core::ops::BitAndAssign for gpgrt_log_levels {
+    #[inline]
+    fn bitand_assign(&mut self, rhs: gpgrt_log_levels) {
+        self.0 &= rhs.0;
+    }
+}
+#[repr(transparent)]
+#[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
+pub struct gpgrt_log_levels(pub ::std::os::raw::c_uint);
 extern "C" {
     pub fn gpgrt_log_set_sink(
         name: *const ::std::os::raw::c_char,
@@ -4691,14 +3918,6 @@ extern "C" {
 }
 extern "C" {
     pub fn gpgrt_log_flush();
-}
-extern "C" {
-    pub fn _gpgrt_log_assert(
-        expr: *const ::std::os::raw::c_char,
-        file: *const ::std::os::raw::c_char,
-        line: ::std::os::raw::c_int,
-        func: *const ::std::os::raw::c_char,
-    );
 }
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
