@@ -1,10 +1,10 @@
 cargo-features = ["edition2021"]
 
 [package]
-name = "libgpg-error-sys"
+name = "gpgrt-sys"
 version = "0.1.0"
 edition = "2021"
 
 [build-dependencies]
 bindgen = "0.58"
-libgpg-error-src = { version = "142", path = "../libgpg-error-src" }
+gpgrt-src = { version = "142", path = "../gpgrt-src" }

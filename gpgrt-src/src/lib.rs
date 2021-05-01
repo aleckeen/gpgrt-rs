@@ -4,7 +4,7 @@ use std::path::{Path, PathBuf};
 use std::process::Command;
 
 pub fn source_dir() -> PathBuf {
-    Path::new(env!("CARGO_MANIFEST_DIR")).join("libgpg-error")
+    Path::new(env!("CARGO_MANIFEST_DIR")).join("gpgrt")
 }
 
 pub struct Build {
@@ -27,7 +27,7 @@ pub struct Artifacts {
 impl Build {
     pub fn new() -> Self {
         Self {
-            out_dir: env::var_os("OUT_DIR").map(|s| PathBuf::from(s).join("libgpg-error-build")),
+            out_dir: env::var_os("OUT_DIR").map(|s| PathBuf::from(s).join("gpgrt-build")),
         }
     }
 
@@ -64,21 +64,21 @@ impl Build {
             "--enable-shared=no",
             "--enable-doc=no",
         ]);
-        self.run_command(configure, "configuring libgpg-error");
+        self.run_command(configure, "configuring gpgrt");
 
         let mut make = Command::new("make");
         make.current_dir(&inner_dir);
-        self.run_command(make, "building libgpg-error");
+        self.run_command(make, "building gpgrt");
 
         let mut make_check = Command::new("make");
         make_check.arg("check");
         make_check.current_dir(&inner_dir);
-        self.run_command(make_check, "checking libgpg-error");
+        self.run_command(make_check, "checking gpgrt");
 
         let mut make_install = Command::new("make");
         make_install.arg("install");
         make_install.current_dir(&inner_dir);
-        self.run_command(make_install, "installing libgpg-error");
+        self.run_command(make_install, "installing gpgrt");
 
         Artifacts {
             lib_dir: install_dir.join("lib"),

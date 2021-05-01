@@ -1,4 +1,4 @@
-libgpg-error-src/target
-libgpg-error-sys/target
+gpgrt-src/target
+gpgrt-sys/target
 target
 Cargo.lock
