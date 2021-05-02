@@ -4,3 +4,6 @@ cargo-features = ["edition2021"]
 name = "gpgrt-src"
 version = "142.0.0+1.42"
 edition = "2021"
+
+[dependencies]
+ffi-tools = { version = "0.1", path = "../../ffi-tools-rs" }

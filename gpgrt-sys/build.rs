@@ -12,16 +12,16 @@ fn main() {
     let manifest_dir: PathBuf = env::var("CARGO_MANIFEST_DIR").unwrap().parse().unwrap();
 
     let mut build = Build::new();
-    let artifacts = build.build();
+    build.enable_static(true);
+    build.enable_shared(false);
+    build.enable_doc(false);
+    build.build();
+    build.check();
+    let artifacts = build.install();
+    artifacts.print_cargo_metadata();
 
     bindgen::builder()
-        .header(
-            artifacts
-                .include_dir()
-                .join("gpgrt.h")
-                .display()
-                .to_string(),
-        )
+        .header(artifacts.include_dir.join("gpgrt.h").display().to_string())
         .size_t_is_usize(true)
         .use_core()
         .default_enum_style(bindgen::EnumVariation::NewType { is_bitfield: true })
@@ -35,6 +35,4 @@ fn main() {
         .unwrap()
         .write_to_file(manifest_dir.join("src/ffi.rs"))
         .unwrap();
-
-    artifacts.print_cargo_metadata();
 }
