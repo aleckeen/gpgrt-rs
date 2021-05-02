@@ -55,7 +55,7 @@ impl Build {
 
         let mut autogen = Command::new("./autogen.sh");
         autogen.current_dir(&inner_dir);
-        self.run_command(autogen, "generating configure script using autogen.sh");
+        run_command(autogen, "generating configure script using autogen.sh");
 
         let mut configure = Command::new("./configure");
         configure.current_dir(&inner_dir);
@@ -65,21 +65,21 @@ impl Build {
             "--enable-shared=no",
             "--enable-doc=no",
         ]);
-        self.run_command(configure, "configuring gpgrt");
+        run_command(configure, "configuring gpgrt");
 
         let mut make = Command::new("make");
         make.current_dir(&inner_dir);
-        self.run_command(make, "building gpgrt");
+        run_command(make, "building gpgrt");
 
         let mut make_check = Command::new("make");
         make_check.arg("check");
         make_check.current_dir(&inner_dir);
-        self.run_command(make_check, "checking gpgrt");
+        run_command(make_check, "checking gpgrt");
 
         let mut make_install = Command::new("make");
         make_install.arg("install");
         make_install.current_dir(&inner_dir);
-        self.run_command(make_install, "installing gpgrt");
+        run_command(make_install, "installing gpgrt");
 
         let lib_dir = install_dir.join("lib");
         let bin_dir = install_dir.join("bin");
@@ -90,24 +90,6 @@ impl Build {
             bin_dir,
             include_dir,
             libs: vec!["gpg-error"],
-        }
-    }
-
-    fn run_command(&self, mut command: Command, desc: &str) {
-        println!("running {:?}", command);
-        let status = command.status().unwrap();
-        if !status.success() {
-            panic!(
-                "\n\
-                 \n\
-                 \n\
-                 Error {}:\n\
-                     Command: {:?}\n\
-                     Exit status: {}\n\
-                 \n\
-                 \n",
-                desc, command, status
-            );
         }
     }
 }
@@ -161,5 +143,22 @@ fn cp_r(src: &Path, dst: &Path) {
             let _ = fs::remove_file(&dst);
             fs::copy(&path, &dst).unwrap();
         }
+    }
+}
+
+fn run_command(mut command: Command, desc: &str) {
+    println!("running {:?}", command);
+    let status = command.status().unwrap();
+    if !status.success() {
+        panic!(
+            "\n\
+             \n\
+             Error: {}:\n\
+                 Command: {:?}\n\
+                 Exit status: {}\n\
+             \n\
+             \n",
+            desc, command, status
+        );
     }
 }
