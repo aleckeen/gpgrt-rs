@@ -18,6 +18,7 @@ impl Default for Build {
 }
 
 pub struct Artifacts {
+    install_dir: PathBuf,
     include_dir: PathBuf,
     lib_dir: PathBuf,
     bin_dir: PathBuf,
@@ -80,10 +81,14 @@ impl Build {
         make_install.current_dir(&inner_dir);
         self.run_command(make_install, "installing gpgrt");
 
+        let lib_dir = install_dir.join("lib");
+        let bin_dir = install_dir.join("bin");
+        let include_dir = install_dir.join("include");
         Artifacts {
-            lib_dir: install_dir.join("lib"),
-            bin_dir: install_dir.join("bin"),
-            include_dir: install_dir.join("include"),
+            install_dir,
+            lib_dir,
+            bin_dir,
+            include_dir,
             libs: vec!["gpg-error"],
         }
     }
@@ -108,6 +113,10 @@ impl Build {
 }
 
 impl Artifacts {
+    pub fn install_dir(&self) -> &Path {
+        &self.install_dir
+    }
+
     pub fn include_dir(&self) -> &Path {
         &self.include_dir
     }
