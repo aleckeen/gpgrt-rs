@@ -1,12 +1,12 @@
 use std::env;
 use std::path::PathBuf;
 
-use libgpg_error_src::Build;
+use gpgrt_src::Build;
 
 fn main() {
     println!(
         "cargo:rerun-if-changed={}",
-        libgpg_error_src::source_dir().display()
+        gpgrt_src::source_dir().display()
     );
 
     let manifest_dir: PathBuf = env::var("CARGO_MANIFEST_DIR").unwrap().parse().unwrap();
