@@ -10,9 +10,6 @@ pub fn source_dir() -> PathBuf {
 pub struct Build {
     project: Project,
     install_dir: PathBuf,
-    static_lib: Option<bool>,
-    shared_lib: Option<bool>,
-    doc: Option<bool>,
 }
 
 impl Build {
@@ -27,9 +24,6 @@ impl Build {
         Self {
             project,
             install_dir,
-            static_lib: None,
-            shared_lib: None,
-            doc: None,
         }
     }
 
@@ -41,41 +35,11 @@ impl Build {
         self.install_dir = new_install_dir.as_ref().to_path_buf();
     }
 
-    pub fn enable_static(&mut self, enable: bool) {
-        self.static_lib = Some(enable);
-    }
-
-    pub fn enable_shared(&mut self, enable: bool) {
-        self.shared_lib = Some(enable);
-    }
-
-    pub fn enable_doc(&mut self, enable: bool) {
-        self.doc = Some(enable);
-    }
-
     pub fn build(&self) {
         let mut configure = self.project.configure();
-        if let Some(enable) = self.static_lib {
-            if enable {
-                configure.enable("static");
-            } else {
-                configure.disable("static");
-            }
-        }
-        if let Some(enable) = self.shared_lib {
-            if enable {
-                configure.enable("shared");
-            } else {
-                configure.disable("shared");
-            }
-        }
-        if let Some(enable) = self.doc {
-            if enable {
-                configure.enable("doc");
-            } else {
-                configure.disable("doc");
-            }
-        }
+        configure.enable("static");
+        configure.disable("shared");
+        configure.disable("doc");
         configure.prefix(&self.install_dir);
         configure.configure();
         self.project.make();

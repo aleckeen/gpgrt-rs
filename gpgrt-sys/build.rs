@@ -11,10 +11,7 @@ fn main() {
 
     let manifest_dir: PathBuf = env::var("CARGO_MANIFEST_DIR").unwrap().parse().unwrap();
 
-    let mut build = Build::new();
-    build.enable_static(true);
-    build.enable_shared(false);
-    build.enable_doc(false);
+    let build = Build::new();
     build.build();
     build.check();
     let artifacts = build.install();
