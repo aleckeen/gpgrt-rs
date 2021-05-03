@@ -22,6 +22,7 @@ fn main() {
         .size_t_is_usize(true)
         .use_core()
         .default_enum_style(bindgen::EnumVariation::NewType { is_bitfield: true })
+        .generate_comments(false)
         .allowlist_var("GPG.*")
         .allowlist_var("gpg.*")
         .allowlist_type("GPG.*")

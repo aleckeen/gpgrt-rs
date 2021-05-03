@@ -7,9 +7,19 @@ pub fn source_dir() -> PathBuf {
     Path::new(env!("CARGO_MANIFEST_DIR")).join("gpgrt")
 }
 
+pub fn rerun_if_src_changed() {
+    println!("cargo:rerun-if-changed={}", source_dir().display());
+}
+
 pub struct Build {
     project: Project,
     install_dir: PathBuf,
+}
+
+impl Default for Build {
+    fn default() -> Self {
+        Self::new()
+    }
 }
 
 impl Build {
