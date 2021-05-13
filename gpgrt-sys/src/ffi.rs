@@ -90,26 +90,26 @@ where
     }
   }
 }
-pub const GPG_ERROR_H: u32 = 1;
-pub const GPGRT_H: u32 = 1;
+pub const GPG_ERROR_H: i32 = 1;
+pub const GPGRT_H: i32 = 1;
 pub const GPG_ERROR_VERSION: &'static [u8; 13usize] = b"1.42-unknown\0";
 pub const GPGRT_VERSION: &'static [u8; 13usize] = b"1.42-unknown\0";
-pub const GPG_ERROR_VERSION_NUMBER: u32 = 76288;
-pub const GPGRT_VERSION_NUMBER: u32 = 76288;
-pub const GPG_ERR_SYSTEM_ERROR: u32 = 32768;
-pub const GPG_ERR_SOURCE_SHIFT: u32 = 24;
-pub const GPGRT_HAVE_MACRO_FUNCTION: u32 = 1;
-pub const GPG_ERR_INITIALIZED: u32 = 1;
-pub const GPGRT_LOG_WITH_PREFIX: u32 = 1;
-pub const GPGRT_LOG_WITH_TIME: u32 = 2;
-pub const GPGRT_LOG_WITH_PID: u32 = 4;
-pub const GPGRT_LOG_RUN_DETACHED: u32 = 256;
-pub const GPGRT_LOG_NO_REGISTRY: u32 = 512;
-pub const GPGRT_SPAWN_NONBLOCK: u32 = 16;
-pub const GPGRT_SPAWN_RUN_ASFW: u32 = 64;
-pub const GPGRT_SPAWN_DETACHED: u32 = 128;
-pub const GPGRT_CONFDIR_USER: u32 = 1;
-pub const GPGRT_CONFDIR_SYS: u32 = 2;
+pub const GPG_ERROR_VERSION_NUMBER: i32 = 76288;
+pub const GPGRT_VERSION_NUMBER: i32 = 76288;
+pub const GPG_ERR_SYSTEM_ERROR: i32 = 32768;
+pub const GPG_ERR_SOURCE_SHIFT: i32 = 24;
+pub const GPGRT_HAVE_MACRO_FUNCTION: i32 = 1;
+pub const GPG_ERR_INITIALIZED: i32 = 1;
+pub const GPGRT_LOG_WITH_PREFIX: i32 = 1;
+pub const GPGRT_LOG_WITH_TIME: i32 = 2;
+pub const GPGRT_LOG_WITH_PID: i32 = 4;
+pub const GPGRT_LOG_RUN_DETACHED: i32 = 256;
+pub const GPGRT_LOG_NO_REGISTRY: i32 = 512;
+pub const GPGRT_SPAWN_NONBLOCK: i32 = 16;
+pub const GPGRT_SPAWN_RUN_ASFW: i32 = 64;
+pub const GPGRT_SPAWN_DETACHED: i32 = 128;
+pub const GPGRT_CONFDIR_USER: i32 = 1;
+pub const GPGRT_CONFDIR_SYS: i32 = 2;
 pub type va_list = __builtin_va_list;
 pub type __off_t = ::std::os::raw::c_long;
 pub type __off64_t = ::std::os::raw::c_long;
