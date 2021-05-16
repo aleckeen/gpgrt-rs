@@ -17,7 +17,7 @@ impl Error
 
   pub fn is_error(&self) -> bool
   {
-    self.0 == gpgrt_sys::GPG_ERR_NO_ERROR
+    self.0 != gpgrt_sys::GPG_ERR_NO_ERROR
   }
 }
 
