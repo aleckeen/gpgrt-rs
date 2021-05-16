@@ -14,6 +14,11 @@ impl Error
     let ptr = unsafe { gpgrt_sys::gpg_strerror(self.0) };
     unsafe { CStr::from_ptr(ptr) }.to_str().unwrap()
   }
+
+  pub fn is_error(&self) -> bool
+  {
+    self.0 == gpgrt_sys::GPG_ERR_NO_ERROR
+  }
 }
 
 impl std::fmt::Debug for Error
