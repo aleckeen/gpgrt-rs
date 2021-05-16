@@ -1,0 +1,9 @@
+cargo-features = ["edition2021"]
+
+[package]
+name = "gpgrt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gpgrt-sys = { version = "0.1", path = "../gpgrt-sys" }

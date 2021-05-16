@@ -1,5 +1,6 @@
 [workspace]
 members = [
+  "gpgrt",
   "gpgrt-src",
   "gpgrt-sys",
 ]
