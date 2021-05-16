@@ -4,6 +4,11 @@ pub struct Error(gpgrt_sys::gpg_err_code_t);
 
 impl Error
 {
+  pub fn from_raw(raw: gpgrt_sys::gpg_err_code_t) -> Self
+  {
+    Self(raw)
+  }
+
   pub fn error_string(&self) -> &str
   {
     let ptr = unsafe { gpgrt_sys::gpg_strerror(self.0) };
