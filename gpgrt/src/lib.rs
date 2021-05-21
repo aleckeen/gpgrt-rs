@@ -33,6 +33,7 @@ impl std::fmt::Debug for Error
   {
     f.debug_struct("Error")
       .field("error_code", &self.0)
+      .field("source", &self.source_string())
       .field("error_msg", &self.error_string())
       .finish()
   }
