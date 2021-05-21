@@ -9,9 +9,15 @@ impl Error
     Self(raw)
   }
 
-  pub fn error_string(&self) -> &str
+  pub fn error_string(&self) -> &'static str
   {
     let ptr = unsafe { gpgrt_sys::gpg_strerror(self.0) };
+    unsafe { CStr::from_ptr(ptr) }.to_str().unwrap()
+  }
+
+  pub fn source_string(&self) -> &'static str
+  {
+    let ptr = unsafe { gpgrt_sys::gpg_strsource(self.0) };
     unsafe { CStr::from_ptr(ptr) }.to_str().unwrap()
   }
 
@@ -37,8 +43,9 @@ impl std::fmt::Display for Error
   fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result
   {
     f.write_str(&format!(
-      "gpg returned with an error code of {}: {}",
+      "gpg returned with an error code of {}: {}/{}",
       self.0,
+      self.source_string(),
       self.error_string()
     ))
   }
